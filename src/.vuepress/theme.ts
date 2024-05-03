@@ -5,11 +5,6 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
-  author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
-  },
-
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -17,6 +12,8 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+
+  toc: true ,
 
   locales: {
     "/": {
@@ -26,12 +23,12 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "Default footer",
+      footer: "默认页脚",
 
       displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "在 GitHub 上编辑此页",
       },
     },
 
@@ -45,13 +42,13 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "默认页脚",
+      footer: "Default footer",
 
       displayFooter: true,
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "Edit this page on GitHub",
       },
     },
   },
@@ -64,6 +61,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    
+    copyCode: {},
+
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     comment: {

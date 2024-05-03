@@ -19,13 +19,15 @@ actions:
     link: ./guide/
 
 highlights:
-  - header: 易于安装
+  - header: 设计理念
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: BeShell 是一个在 ESP32 平台上运行 JavaScript 的项目。BeShell 的 JS 引擎基本实现了 ES2020 标准下的所有特性。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+      - title: 用互联网技术栈做 IoT 开发
+      - title: 从 Arduino 开箱即用，到 ESP32 SDK 源码编译，技术难度曲线平缓
+      - title: 在单片机上实践现代化程序设计：ES2020, C/C++ 14/17
+      - title: 保持接口优雅，易于扩展
 
   - header: BeShell特性
     description: 我们将常用的 ESP-IDF API 和 许多第三方库都封装成了 JavaScript 接口，为你提供了成吨功能。
@@ -251,9 +253,9 @@ highlights:
         details: 管理设备上的文件，编辑代码，运行命令，交互式运行 JS 代码
         link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
 
-      - title: PWA 支持
+      - title: WebAssembly 支持
         icon: mobile-screen
-        details: 让你的网站更像一个 APP
+        details: 无需单片机设备，在浏览器里运行 BeShell 虚拟机 (coming soon)
         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false

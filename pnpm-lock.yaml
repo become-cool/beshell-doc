@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.9
         version: 2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0)
+      '@vuepress/plugin-catalog':
+        specifier: 2.0.0-rc.10
+        version: 2.0.0-rc.10(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26))
       vue:
         specifier: ^3.4.23
         version: 3.4.26
@@ -646,6 +649,11 @@ packages:
     resolution: {integrity: sha512-kwltshAQ+xIqFGpJ2fYypq/VO2G6wDMt9iS3IZtgpBkDZklMsvxu+3hB7xvaWVIbksaClPDaCwp9zBiy91uYtw==, tarball: https://registry.npmmirror.com/@vuepress/plugin-blog/-/plugin-blog-2.0.0-rc.26.tgz}
     peerDependencies:
       vuepress: 2.0.0-rc.9
+
+  '@vuepress/plugin-catalog@2.0.0-rc.10':
+    resolution: {integrity: sha512-BnHGM+p/iAv+9D+4vD2hUESWmuhL9B4+WcEC87C63ViOQ0jSWFW7D85x35Q4SRytQr7tWBkLudpk5b2vsoqZ7w==, tarball: https://registry.npmmirror.com/@vuepress/plugin-catalog/-/plugin-catalog-2.0.0-rc.10.tgz}
+    peerDependencies:
+      vuepress: 2.0.0-rc.5
 
   '@vuepress/plugin-catalog@2.0.0-rc.26':
     resolution: {integrity: sha512-TM7AwlECslnyFoa/c99C5xTFyNThZnWo6WoYTwkANVXYM1xvf96ljDYK1X3L5kAWGipgyVe6NwMcMYmDWfVFbA==, tarball: https://registry.npmmirror.com/@vuepress/plugin-catalog/-/plugin-catalog-2.0.0-rc.26.tgz}
@@ -2209,6 +2217,15 @@ snapshots:
       '@vuepress/helper': 2.0.0-rc.26(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26))
       chokidar: 3.6.0
       vue: 3.4.26
+      vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26)
+    transitivePeerDependencies:
+      - typescript
+
+  '@vuepress/plugin-catalog@2.0.0-rc.10(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.26(vuepress@2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26))
+      vue: 3.4.26
+      vue-router: 4.3.2(vue@3.4.26)
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9(@types/node@20.12.8)(sass@1.76.0))(vue@3.4.26)
     transitivePeerDependencies:
       - typescript
