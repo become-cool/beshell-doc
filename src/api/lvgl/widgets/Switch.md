@@ -1,7 +1,11 @@
-`Switch` 类是对 LVGL 的 Widget `lv_switch_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Switch
 
-## 类方法:
+> 该类是对 LVGL Widget `lv_switch_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/switch.html)
 
-该 Widget 没有定义方法
+继承自 [Obj](Obj)
+
+

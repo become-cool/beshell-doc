@@ -1,24 +1,11 @@
-`Btn` 类是对 LVGL 的 Widget `lv_button_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Btn
 
-## 类方法:
+> 该类是对 LVGL Widget `lv_button_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/button.html)
 
-
-
-### 方法：bindChecked
-
-> 该方法是对 LVGL C API `lv_button_bind_checked()` 的包装
-
-原型: bindChecked (obj:[Obj](../Obj), subject:lv_subject_t *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* subject: lv_subject_t *
-
-返回值:
-lv_observer_t *
+继承自 [Obj](Obj)
 
 

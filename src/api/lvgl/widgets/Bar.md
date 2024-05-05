@@ -3,6 +3,12 @@ headerDepth: 2
 ---
 
 # 类: Bar
+
+> 该类是对 LVGL Widget `lv_bar_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/bar.html)
+
+继承自 [Obj](Obj)
+
+
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -85,7 +91,7 @@ headerDepth: 2
 原型:  setValue
  ()
 
-> 该方法是对 LVGL C API `lv_bar_set_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_bar_set_value` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -101,7 +107,7 @@ headerDepth: 2
 原型:  setStartValue
  ()
 
-> 该方法是对 LVGL C API `lv_bar_set_start_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_bar_set_start_value` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -117,7 +123,7 @@ headerDepth: 2
 原型:  setRange
  ()
 
-> 该方法是对 LVGL C API `lv_bar_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_bar_set_range` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -133,7 +139,7 @@ headerDepth: 2
 原型:  isSymmetrical
  ()
 
-> 该方法是对 LVGL C API `lv_bar_is_symmetrical` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_bar_is_symmetrical` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

@@ -3,6 +3,12 @@ headerDepth: 2
 ---
 
 # 类: Obj
+
+> 该类是对 LVGL Widget `lv_obj_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/obj.html)
+
+继承自 [EventEmitter](EventEmitter)
+
+
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -449,7 +455,7 @@ headerDepth: 2
 原型:  addFlag
  ()
 
-> 该方法是对 LVGL C API `lv_obj_add_flag` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_add_flag` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -465,7 +471,7 @@ headerDepth: 2
 原型:  removeFlag
  ()
 
-> 该方法是对 LVGL C API `lv_obj_remove_flag` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_remove_flag` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -481,7 +487,7 @@ headerDepth: 2
 原型:  updateFlag
  ()
 
-> 该方法是对 LVGL C API `lv_obj_update_flag` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_update_flag` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -497,7 +503,7 @@ headerDepth: 2
 原型:  addState
  ()
 
-> 该方法是对 LVGL C API `lv_obj_add_state` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_add_state` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -513,7 +519,7 @@ headerDepth: 2
 原型:  removeState
  ()
 
-> 该方法是对 LVGL C API `lv_obj_remove_state` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_remove_state` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -529,7 +535,7 @@ headerDepth: 2
 原型:  setState
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_state` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_state` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -545,7 +551,7 @@ headerDepth: 2
 原型:  hasFlag
  ()
 
-> 该方法是对 LVGL C API `lv_obj_has_flag` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_has_flag` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -561,7 +567,7 @@ headerDepth: 2
 原型:  hasFlagAny
  ()
 
-> 该方法是对 LVGL C API `lv_obj_has_flag_any` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_has_flag_any` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -577,7 +583,7 @@ headerDepth: 2
 原型:  hasState
  ()
 
-> 该方法是对 LVGL C API `lv_obj_has_state` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_has_state` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -593,7 +599,7 @@ headerDepth: 2
 原型:  allocateSpecAttr
  ()
 
-> 该方法是对 LVGL C API `lv_obj_allocate_spec_attr` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_allocate_spec_attr` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -609,7 +615,7 @@ headerDepth: 2
 原型:  isValid
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_valid` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_valid` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -625,7 +631,7 @@ headerDepth: 2
 原型:  classInitObj
  ()
 
-> 该方法是对 LVGL C API `lv_obj_class_init_obj` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_class_init_obj` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -641,7 +647,7 @@ headerDepth: 2
 原型:  isEditable
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_editable` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_editable` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -657,7 +663,7 @@ headerDepth: 2
 原型:  isGroupDef
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_group_def` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_group_def` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -673,7 +679,7 @@ headerDepth: 2
 原型:  calculateExtDrawSize
  ()
 
-> 该方法是对 LVGL C API `lv_obj_calculate_ext_draw_size` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_calculate_ext_draw_size` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -689,7 +695,7 @@ headerDepth: 2
 原型:  refreshExtDrawSize
  ()
 
-> 该方法是对 LVGL C API `lv_obj_refresh_ext_draw_size` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_refresh_ext_draw_size` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -705,7 +711,7 @@ headerDepth: 2
 原型:  removeEvent
  ()
 
-> 该方法是对 LVGL C API `lv_obj_remove_event` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_remove_event` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -721,7 +727,7 @@ headerDepth: 2
 原型:  setPos
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_pos` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_pos` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -737,7 +743,7 @@ headerDepth: 2
 原型:  setSize
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_size` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_size` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -753,7 +759,7 @@ headerDepth: 2
 原型:  refrSize
  ()
 
-> 该方法是对 LVGL C API `lv_obj_refr_size` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_refr_size` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -769,7 +775,7 @@ headerDepth: 2
 原型:  isLayoutPositioned
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_layout_positioned` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_layout_positioned` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -785,7 +791,7 @@ headerDepth: 2
 原型:  markLayoutAsDirty
  ()
 
-> 该方法是对 LVGL C API `lv_obj_mark_layout_as_dirty` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_mark_layout_as_dirty` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -801,7 +807,7 @@ headerDepth: 2
 原型:  updateLayout
  ()
 
-> 该方法是对 LVGL C API `lv_obj_update_layout` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_update_layout` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -817,7 +823,7 @@ headerDepth: 2
 原型:  alignTo
  ()
 
-> 该方法是对 LVGL C API `lv_obj_align_to` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_align_to` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -833,7 +839,7 @@ headerDepth: 2
 原型:  refreshSelfSize
  ()
 
-> 该方法是对 LVGL C API `lv_obj_refresh_self_size` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_refresh_self_size` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -849,7 +855,7 @@ headerDepth: 2
 原型:  refrPos
  ()
 
-> 该方法是对 LVGL C API `lv_obj_refr_pos` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_refr_pos` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -865,7 +871,7 @@ headerDepth: 2
 原型:  moveTo
  ()
 
-> 该方法是对 LVGL C API `lv_obj_move_to` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_move_to` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -881,7 +887,7 @@ headerDepth: 2
 原型:  moveChildrenBy
  ()
 
-> 该方法是对 LVGL C API `lv_obj_move_children_by` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_move_children_by` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -897,7 +903,7 @@ headerDepth: 2
 原型:  invalidate
  ()
 
-> 该方法是对 LVGL C API `lv_obj_invalidate` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_invalidate` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -913,7 +919,7 @@ headerDepth: 2
 原型:  isVisible
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_visible` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_visible` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -929,7 +935,7 @@ headerDepth: 2
 原型:  scrollBy
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_by` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_by` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -945,7 +951,7 @@ headerDepth: 2
 原型:  scrollByBounded
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_by_bounded` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_by_bounded` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -961,7 +967,7 @@ headerDepth: 2
 原型:  scrollTo
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_to` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_to` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -977,7 +983,7 @@ headerDepth: 2
 原型:  scrollToX
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_to_x` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_to_x` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -993,7 +999,7 @@ headerDepth: 2
 原型:  scrollToY
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_to_y` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_to_y` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1009,7 +1015,7 @@ headerDepth: 2
 原型:  scrollToView
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_to_view` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_to_view` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1025,7 +1031,7 @@ headerDepth: 2
 原型:  scrollToViewRecursive
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scroll_to_view_recursive` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scroll_to_view_recursive` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1041,7 +1047,7 @@ headerDepth: 2
 原型:  isScrolling
  ()
 
-> 该方法是对 LVGL C API `lv_obj_is_scrolling` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_is_scrolling` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1057,7 +1063,7 @@ headerDepth: 2
 原型:  updateSnap
  ()
 
-> 该方法是对 LVGL C API `lv_obj_update_snap` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_update_snap` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1073,7 +1079,7 @@ headerDepth: 2
 原型:  scrollbarInvalidate
  ()
 
-> 该方法是对 LVGL C API `lv_obj_scrollbar_invalidate` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_scrollbar_invalidate` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1089,7 +1095,7 @@ headerDepth: 2
 原型:  readjustScroll
  ()
 
-> 该方法是对 LVGL C API `lv_obj_readjust_scroll` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_readjust_scroll` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1105,7 +1111,7 @@ headerDepth: 2
 原型:  removeStyleAll
  ()
 
-> 该方法是对 LVGL C API `lv_obj_remove_style_all` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_remove_style_all` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1121,7 +1127,7 @@ headerDepth: 2
 原型:  fadeIn
  ()
 
-> 该方法是对 LVGL C API `lv_obj_fade_in` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_fade_in` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1137,7 +1143,7 @@ headerDepth: 2
 原型:  fadeOut
  ()
 
-> 该方法是对 LVGL C API `lv_obj_fade_out` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_fade_out` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1153,7 +1159,7 @@ headerDepth: 2
 原型:  _delete
  ()
 
-> 该方法是对 LVGL C API `lv_obj_delete` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_delete` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1169,7 +1175,7 @@ headerDepth: 2
 原型:  clean
  ()
 
-> 该方法是对 LVGL C API `lv_obj_clean` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_clean` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1185,7 +1191,7 @@ headerDepth: 2
 原型:  deleteDelayed
  ()
 
-> 该方法是对 LVGL C API `lv_obj_delete_delayed` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_delete_delayed` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1201,7 +1207,7 @@ headerDepth: 2
 原型:  deleteAsync
  ()
 
-> 该方法是对 LVGL C API `lv_obj_delete_async` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_delete_async` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1217,7 +1223,7 @@ headerDepth: 2
 原型:  swap
  ()
 
-> 该方法是对 LVGL C API `lv_obj_swap` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_swap` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1233,7 +1239,7 @@ headerDepth: 2
 原型:  moveToIndex
  ()
 
-> 该方法是对 LVGL C API `lv_obj_move_to_index` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_move_to_index` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1249,7 +1255,7 @@ headerDepth: 2
 原型:  getChild
  ()
 
-> 该方法是对 LVGL C API `lv_obj_get_child` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_get_child` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1265,7 +1271,7 @@ headerDepth: 2
 原型:  getSibling
  ()
 
-> 该方法是对 LVGL C API `lv_obj_get_sibling` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_get_sibling` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1281,7 +1287,7 @@ headerDepth: 2
 原型:  dumpTree
  ()
 
-> 该方法是对 LVGL C API `lv_obj_dump_tree` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_dump_tree` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1297,7 +1303,7 @@ headerDepth: 2
 原型:  setFlexAlign
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_flex_align` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_flex_align` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1313,7 +1319,7 @@ headerDepth: 2
 原型:  setGridAlign
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_grid_align` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_grid_align` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -1329,7 +1335,7 @@ headerDepth: 2
 原型:  setGridCell
  ()
 
-> 该方法是对 LVGL C API `lv_obj_set_grid_cell` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_obj_set_grid_cell` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

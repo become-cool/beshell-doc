@@ -1,7 +1,5 @@
 const config = require("./config.js")
 const fs = require("fs")
-const {basename} = require("path")
-const {generators} = require("./generators.js")
 
 const outputDir = config.path_output + '/api/lvgl'
 
@@ -156,26 +154,34 @@ ${md_methosd || '该 Widget 没有定义方法'}
 }
 
 
-function updateConst() {
+function generateConst() {
     let md = ''
 
-    for(let consDef of LibConst) {
+    console.log(LibConst)
+
+    for(let typename in LibConst) {
+
+        let consDef = LibConst[typename]
+
         md+= `<h3 id="${consDef.type}"></h3>\r\n\r\n-----\r\n\r\n`
 
         md+= `### 常量类型 ${consDef.type}\r\n\r\n`
-        md+= `可选值(js 字符串):\r\n\r\n`
+        md+= `BeShell 将 LVGL C API 中的常量类型 `${consDef.type}` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。\r\n\r\n`
+        md+= `可用值(js 字符串):\r\n\r\n`
         
-        for(let name of consDef.def) {
+        for(let name of consDef.consts) {
 
             let value = name.replace(consDef.prefix, '').replace(/_/g, '-').toLowerCase()
             
-            md+= `* "${value}"\r\n`
-            md+= `LVGL C 常量: \`${name}\`\r\n\r\n`
+            md+= `* "${value}"\r\n\r\n`
+            md+= `    对应 \`${name}\`\r\n\r\n`
         }
 
     }
 
-    return updateCloud(did_const,'常量',md)
+    console.log(md)
+
+    fs.writeFileSync(outputDir+"/consts.md", md)
 
 }
 
@@ -231,7 +237,7 @@ ${getter}
 }
 
 
-function updateStyle() {
+function generateStyle() {
 
     let md = ''
 
@@ -254,7 +260,7 @@ function updateStyle() {
 
 }
 
-function updateEvent() {
+function generateEvent() {
 }
 
 function updateSideBar() {
@@ -282,7 +288,7 @@ async function main() {
     
 
     if(process.argv[2]=='const') {
-        await updateConst()
+        await generateConst()
         return
     }
 
@@ -292,14 +298,14 @@ async function main() {
     // }
 
     else if(process.argv[2]=='style') {
-        await updateStyle()
+        await generateStyle()
         return
     }
 
-    else if(process.argv[2]=='event') {
-        await updateEvent()
-        return
-    }
+    // else if(process.argv[2]=='event') {
+    //     await generateEvent()
+    //     return
+    // }
 
     // else if(process.argv[2]=='widget') {
 
