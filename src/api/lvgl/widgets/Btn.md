@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### bindChecked (obj:[Obj](../Obj), subject:lv_subject_t *)
+
+### 方法：bindChecked
 
 > 该方法是对 LVGL C API `lv_button_bind_checked()` 的包装
+
+原型: bindChecked (obj:[Obj](../Obj), subject:lv_subject_t *)
 
 参数:
 

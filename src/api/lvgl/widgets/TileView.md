@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### addTile (tv:[Obj](../Obj), col_id:number, row_id:number, dir:string)
+
+### 方法：addTile
 
 > 该方法是对 LVGL C API `lv_tileview_add_tile()` 的包装
+
+原型: addTile (tv:[Obj](../Obj), col_id:number, row_id:number, dir:string)
 
 参数:
 
@@ -23,11 +25,13 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### setTile (tv:[Obj](../Obj), tile_obj:[Obj](../Obj), anim_en:string)
+
+### 方法：setTile
 
 > 该方法是对 LVGL C API `lv_tileview_set_tile()` 的包装
+
+原型: setTile (tv:[Obj](../Obj), tile_obj:[Obj](../Obj), anim_en:string)
 
 参数:
 
@@ -40,11 +44,13 @@
 返回值:
 undefined
 
------
 
-### setTileByIndex (tv:[Obj](../Obj), col_id:number, row_id:number, anim_en:string)
+
+### 方法：setTileByIndex
 
 > 该方法是对 LVGL C API `lv_tileview_set_tile_by_index()` 的包装
+
+原型: setTileByIndex (tv:[Obj](../Obj), col_id:number, row_id:number, anim_en:string)
 
 参数:
 

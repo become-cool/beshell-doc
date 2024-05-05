@@ -1,6 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
@@ -61,6 +62,17 @@ export default hopeTheme({
   },
 
   plugins: {
+    
+    prismjs: {
+      light: "one-light",
+      dark: "atom-dark",
+    } ,
+    // shikiPlugin: {
+    //   themes: {
+    //     light: "github-light",
+    //     dark: "one-dark-pro",
+    //   },
+    // },
     
     copyCode: {},
 

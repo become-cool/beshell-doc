@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### addTitle (obj:[Obj](../Obj), title:const char *)
+
+### 方法：addTitle
 
 > 该方法是对 LVGL C API `lv_msgbox_add_title()` 的包装
+
+原型: addTitle (obj:[Obj](../Obj), title:const char *)
 
 参数:
 
@@ -19,11 +21,13 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### addHeaderButton (obj:[Obj](../Obj), icon:const void *)
+
+### 方法：addHeaderButton
 
 > 该方法是对 LVGL C API `lv_msgbox_add_header_button()` 的包装
+
+原型: addHeaderButton (obj:[Obj](../Obj), icon:const void *)
 
 参数:
 
@@ -34,12 +38,14 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### addText (obj:[Obj](../Obj), text:const char *)
+
+### 方法：addText
 
 > 该方法是对 LVGL C API `lv_msgbox_add_text()` 的包装
 
+原型: addText (obj:[Obj](../Obj), text:const char *)
+
 参数:
 
 * obj: [Obj](../Obj)
@@ -49,12 +55,14 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### addFooterButton (obj:[Obj](../Obj), text:const char *)
+
+### 方法：addFooterButton
 
 > 该方法是对 LVGL C API `lv_msgbox_add_footer_button()` 的包装
 
+原型: addFooterButton (obj:[Obj](../Obj), text:const char *)
+
 参数:
 
 * obj: [Obj](../Obj)
@@ -64,11 +72,13 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### addCloseButton (obj:[Obj](../Obj))
+
+### 方法：addCloseButton
 
 > 该方法是对 LVGL C API `lv_msgbox_add_close_button()` 的包装
+
+原型: addCloseButton (obj:[Obj](../Obj))
 
 参数:
 
@@ -77,11 +87,13 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### close (mbox:[Obj](../Obj))
+
+### 方法：close
 
 > 该方法是对 LVGL C API `lv_msgbox_close()` 的包装
+
+原型: close (mbox:[Obj](../Obj))
 
 参数:
 
@@ -90,11 +102,13 @@
 返回值:
 undefined
 
------
 
-### closeAsync (mbox:[Obj](../Obj))
+
+### 方法：closeAsync
 
 > 该方法是对 LVGL C API `lv_msgbox_close_async()` 的包装
+
+原型: closeAsync (mbox:[Obj](../Obj))
 
 参数:
 

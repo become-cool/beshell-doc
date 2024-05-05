@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### addTab (obj:[Obj](../Obj), name:const char *)
+
+### 方法：addTab
 
 > 该方法是对 LVGL C API `lv_tabview_add_tab()` 的包装
+
+原型: addTab (obj:[Obj](../Obj), name:const char *)
 
 参数:
 
@@ -19,11 +21,13 @@
 返回值:
 [Obj](../Obj)
 
------
 
-### renameTab (obj:[Obj](../Obj), idx:number, new_name:const char *)
+
+### 方法：renameTab
 
 > 该方法是对 LVGL C API `lv_tabview_rename_tab()` 的包装
+
+原型: renameTab (obj:[Obj](../Obj), idx:number, new_name:const char *)
 
 参数:
 
@@ -36,11 +40,13 @@
 返回值:
 undefined
 
------
 
-### setActive (obj:[Obj](../Obj), idx:number, anim_en:string)
+
+### 方法：setActive
 
 > 该方法是对 LVGL C API `lv_tabview_set_active()` 的包装
+
+原型: setActive (obj:[Obj](../Obj), idx:number, anim_en:string)
 
 参数:
 

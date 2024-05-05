@@ -1,8 +1,14 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
+const base = "/"
+
 export default defineUserConfig({
-  base: "/",
+  base,
+
+  head: [
+    ["link", { rel: "stylesheet", href: base+"doc.css" }],
+  ] ,
 
   locales: {
     "/en/": {

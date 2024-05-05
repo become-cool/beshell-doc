@@ -2,14 +2,16 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### setButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+
+### 方法：setButtonCtrl
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_set_button_ctrl()` 的包装
 
+原型: setButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+
 参数:
 
 * obj: [Obj](../Obj)
@@ -21,12 +23,14 @@
 返回值:
 undefined
 
------
 
-### clearButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+
+### 方法：clearButtonCtrl
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl()` 的包装
 
+原型: clearButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+
 参数:
 
 * obj: [Obj](../Obj)
@@ -38,11 +42,13 @@ undefined
 返回值:
 undefined
 
------
 
-### clearButtonCtrlAll (obj:[Obj](../Obj), ctrl:string)
+
+### 方法：clearButtonCtrlAll
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl_all()` 的包装
+
+原型: clearButtonCtrlAll (obj:[Obj](../Obj), ctrl:string)
 
 参数:
 
@@ -53,11 +59,13 @@ undefined
 返回值:
 undefined
 
------
 
-### setButtonWidth (obj:[Obj](../Obj), btn_id:number, width:number)
+
+### 方法：setButtonWidth
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_set_button_width()` 的包装
+
+原型: setButtonWidth (obj:[Obj](../Obj), btn_id:number, width:number)
 
 参数:
 
@@ -70,11 +78,13 @@ undefined
 返回值:
 undefined
 
------
 
-### getButtonText (obj:const lv_obj_t *, btn_id:number)
+
+### 方法：getButtonText
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_get_button_text()` 的包装
+
+原型: getButtonText (obj:const lv_obj_t *, btn_id:number)
 
 参数:
 
@@ -85,11 +95,13 @@ undefined
 返回值:
 const char *
 
------
 
-### hasButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+
+### 方法：hasButtonCtrl
 
 > 该方法是对 LVGL C API `lv_buttonmatrix_has_button_ctrl()` 的包装
+
+原型: hasButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
 
 参数:
 

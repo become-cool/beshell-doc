@@ -1,9 +1,9 @@
 const config = require("./config.js")
 const fs = require("fs")
 const {basename} = require("path")
+const {generators} = require("./generators.js")
 
 const outputDir = config.path_output + '/api/lvgl'
-const api_host = "xxxxxxxx"
 
 const LibConst = require(config.path_lv_generator+"/consts.js")
 const LibStruct = require(config.path_lv_generator+"/api/struct.js")
@@ -123,10 +123,11 @@ function updateWidgetDoc(className, doc) {
         }
 
         
-        md_methosd+= '-----\r\n\r\n'
-        md_methosd+= `### ${jsName} (${argsSign.join(', ')})\r\n\r\n`
+        md_methosd+= '\r\n\r\n'
+        md_methosd+= `### 方法：${jsName}\r\n\r\n`
         md_methosd+= `> 该方法是对 LVGL C API \`${methodName}()\` 的包装\r\n\r\n`
 
+        md_methosd+= `原型: ${jsName} (${argsSign.join(', ')})\r\n\r\n`
         md_methosd+= `参数:\r\n\r\n`
         md_methosd+= md_args || '该函数没有参数\r\n\r\n'
         
@@ -144,7 +145,7 @@ function updateWidgetDoc(className, doc) {
 
 **继承自: ${parent}**
 
-## 方法:
+## 类方法:
 
 ${md_methosd || '该 Widget 没有定义方法'}
 ` 
@@ -256,6 +257,17 @@ function updateStyle() {
 function updateEvent() {
 }
 
+function updateSideBar() {
+    let sidebar = []
+    for(let className in LibWidgetByName) {
+        sidebar.push({
+            text: className,
+            link: className,
+        })
+    }
+    fs.writeFileSync(outputDir+"/widgets/sidebar.json", JSON.stringify(sidebar,null,2))
+}
+
 async function main() {
     if(process.argv.length<3) {
         print_help()
@@ -267,34 +279,17 @@ async function main() {
         process.argv[3] = 'Obj'
     }
 
-    if(process.argv[2]=='widget') {
+    
 
-        if( process.argv[3] == 'all' ) {
-            for(let className in LibWidgetByName) {
-                await updateWidgetDoc(className, LibWidgetByName[className])
-            }
-            return
-        }
-
-        else if( LibWidgetByName[process.argv[3]] ) {
-            await updateWidgetDoc(process.argv[3], LibWidgetByName[process.argv[3]])
-            return
-        }
-
-        else {
-            console.log("unknow widget:", process.argv[3])
-        }
-    }
-
-    else if(process.argv[2]=='const') {
+    if(process.argv[2]=='const') {
         await updateConst()
         return
     }
 
-    else if(process.argv[2]=='struct') {
-        await updateStruct()
-        return
-    }
+    // else if(process.argv[2]=='struct') {
+    //     await updateStruct()
+    //     return
+    // }
 
     else if(process.argv[2]=='style') {
         await updateStyle()
@@ -305,6 +300,27 @@ async function main() {
         await updateEvent()
         return
     }
+
+    // else if(process.argv[2]=='widget') {
+
+    //     if( process.argv[3] == 'all' ) {
+    //         for(let className in LibWidgetByName) {
+    //             generators.nclass(className, LibWidgetByName[className])
+    //             updateWidgetDoc(className, LibWidgetByName[className])
+    //         }
+    //         updateSideBar()
+    //         return
+    //     }
+
+    //     else if( LibWidgetByName[process.argv[3]] ) {
+    //         updateWidgetDoc(process.argv[3], LibWidgetByName[process.argv[3]])
+    //         return
+    //     }
+
+    //     else {
+    //         console.log("unknow widget:", process.argv[3])
+    //     }
+    // }
 
     print_help()
 

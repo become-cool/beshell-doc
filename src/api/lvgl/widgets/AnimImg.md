@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### setSrc (img:[Obj](../Obj), dsc:const void **, num:size_t)
+
+### 方法：setSrc
 
 > 该方法是对 LVGL C API `lv_animimg_set_src()` 的包装
+
+原型: setSrc (img:[Obj](../Obj), dsc:const void **, num:size_t)
 
 参数:
 
@@ -21,11 +23,13 @@
 返回值:
 undefined
 
------
 
-### start (obj:[Obj](../Obj))
+
+### 方法：start
 
 > 该方法是对 LVGL C API `lv_animimg_start()` 的包装
+
+原型: start (obj:[Obj](../Obj))
 
 参数:
 

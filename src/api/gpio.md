@@ -1,36 +1,38 @@
 ---
-headerDepth: 1
+headerDepth: 2
 ---
 
-# GPIO
+# 模块: GPIO
 
-导入 `gpio` 模块：
+导入 `GPIO` 模块：
 
 ::: code-tabs
 
 @tab 在.js文件中
 
 ```javascript
-import * as wifi from 'gpio'
+import * as wifi from 'GPIO'
 ```
 
-@tab 在REPL命令行中
+@tab 在REPL命令行下
+
 ```javascript
-import gpio
+import GPIO
 ```
 
 :::
 
+## 模块函数
 
+<p style="height: 10px;margin:0px"></p>
 
-# API
-## setMode
+### <span class='member-header function'></span> 函数  setMode
 
-原型: setMode (pin:number, mode:string)
+原型:  setMode (pin:number, mode:string)
 
 设置 GPIO 的工作模式
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>pin</span>
 
@@ -45,17 +47,19 @@ import gpio
     <span style='display: inline-block; width:100px'>**参数说明**</span>模式, 可用值: "input"|"output"|"output-od"|"input-output"|"input-output-od"
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## pull
+<p style="height: 10px;margin:0px"></p>
 
-原型: pull (pin:number, mode:string)
+### <span class='member-header function'></span> 函数  pull
+
+原型:  pull (pin:number, mode:string)
 
 设置 gpio pull 模式
  
@@ -65,7 +69,7 @@ import gpio
 * updown 同时上下拉
 * floating 悬空
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>pin</span>
 
@@ -80,21 +84,23 @@ import gpio
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>undefined
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>undefined
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## write
+<p style="height: 10px;margin:0px"></p>
 
-原型: write (pin:number, value:number)
+### <span class='member-header function'></span> 函数  write
+
+原型:  write (pin:number, value:number)
 
 gpio 电平输出
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>pin</span>
 
@@ -109,21 +115,23 @@ gpio 电平输出
     <span style='display: inline-block; width:100px'>**参数说明**</span>输出电平 0|1
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>undefined
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>undefined
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## read
+<p style="height: 10px;margin:0px"></p>
 
-原型: read (pin:number)
+### <span class='member-header function'></span> 函数  read
+
+原型:  read (pin:number)
 
 gpio 电平输入
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>pin</span>
 
@@ -132,21 +140,23 @@ gpio 电平输入
     <span style='display: inline-block; width:100px'>**参数说明**</span>mcu可用的gpio编号
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>0|1
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>0, 1
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## adcSetBits
+<p style="height: 10px;margin:0px"></p>
 
-原型: adcSetBits (adc:number, bits:number)
+### <span class='member-header function'></span> 函数  adcSetBits
+
+原型:  adcSetBits (adc:number, bits:number)
 
 设置 adc 的位宽
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>adc</span>
 
@@ -161,39 +171,43 @@ gpio 电平输入
     <span style='display: inline-block; width:100px'>**参数说明**</span>位宽 (9-12)
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## adcSetChannelAtten
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  adcSetChannelAtten
 param pin:number mcu可用的gpio编号
 param atten:number adc通道 (1|2)
 
-原型: adcSetChannelAtten
+原型:  adcSetChannelAtten
 param pin:number mcu可用的gpio编号
 param atten:number adc通道 (1|2) ()
 
 设置 gpio 使用哪个 adc 通道
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
----
+<p style="height: 10px;margin:0px"></p>
 
-## watch
+<p style="height: 10px;margin:0px"></p>
 
-原型: watch (pin:number, mode:string, callback:function)
+### <span class='member-header function'></span> 函数  watch
+
+原型:  watch (pin:number, mode:string, callback:function)
 
 监听 gpio 外部电平变化
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>pin</span>
 
@@ -214,11 +228,11 @@ param atten:number adc通道 (1|2) ()
     <span style='display: inline-block; width:100px'>**参数说明**</span>回调函数，callback 的原型为 `function(pin, value)`
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
-                
+
+<p style="height: 10px;margin:0px"></p>
+

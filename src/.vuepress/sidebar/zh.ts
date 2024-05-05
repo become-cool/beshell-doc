@@ -1,4 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
+import * as lvglWidgets from "../../api/lvgl/widgets/sidebar.json";
+
 
 export const zhSidebar = sidebar({
   "/": [
@@ -50,19 +52,25 @@ export const zhSidebar = sidebar({
         } ,
         {
           text: "串口",
-          link: "serial",
+          link: "serial/overview",
+          prefix: "serial/",
+          collapsible: true ,
           children: [
             {
+              text: "概述",
+              link: "overview",
+            } ,
+            {
               text: "UART",
-              link: "uart",
+              link: "UART",
             } ,
             {
               text: "I2C",
-              link: "i2c",
+              link: "I2C",
             } ,
             {
               text: "SPI",
-              link: "spi",
+              link: "SPI",
             } ,
           ]
         } ,
@@ -74,6 +82,7 @@ export const zhSidebar = sidebar({
           text: "图形界面(GUI)",
           link: "lvgl/overview",
           prefix: "lvgl/",
+          collapsible: true ,
           children: [
             {
               text: "概述",
@@ -81,7 +90,9 @@ export const zhSidebar = sidebar({
             } ,
             {
               text: "组件",
-              link: "widgets",
+              prefix: "widgets/",
+              collapsible: true ,
+              children: lvglWidgets.default
             } ,
             {
               text: "常量",

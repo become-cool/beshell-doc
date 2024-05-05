@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### setValue (obj:[Obj](../Obj), value:number, anim:string)
+
+### 方法：setValue
 
 > 该方法是对 LVGL C API `lv_bar_set_value()` 的包装
+
+原型: setValue (obj:[Obj](../Obj), value:number, anim:string)
 
 参数:
 
@@ -21,11 +23,13 @@
 返回值:
 undefined
 
------
 
-### setStartValue (obj:[Obj](../Obj), start_value:number, anim:string)
+
+### 方法：setStartValue
 
 > 该方法是对 LVGL C API `lv_bar_set_start_value()` 的包装
+
+原型: setStartValue (obj:[Obj](../Obj), start_value:number, anim:string)
 
 参数:
 
@@ -38,11 +42,13 @@ undefined
 返回值:
 undefined
 
------
 
-### setRange (obj:[Obj](../Obj), min:number, max:number)
+
+### 方法：setRange
 
 > 该方法是对 LVGL C API `lv_bar_set_range()` 的包装
+
+原型: setRange (obj:[Obj](../Obj), min:number, max:number)
 
 参数:
 
@@ -55,11 +61,13 @@ undefined
 返回值:
 undefined
 
------
 
-### isSymmetrical (obj:[Obj](../Obj))
+
+### 方法：isSymmetrical
 
 > 该方法是对 LVGL C API `lv_bar_is_symmetrical()` 的包装
+
+原型: isSymmetrical (obj:[Obj](../Obj))
 
 参数:
 

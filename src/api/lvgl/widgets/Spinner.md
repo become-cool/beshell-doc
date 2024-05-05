@@ -2,13 +2,15 @@
 
 **继承自: Obj**
 
-## 方法:
+## 类方法:
 
------
 
-### setAnimParams (obj:[Obj](../Obj), t:number, angle:number)
+
+### 方法：setAnimParams
 
 > 该方法是对 LVGL C API `lv_spinner_set_anim_params()` 的包装
+
+原型: setAnimParams (obj:[Obj](../Obj), t:number, angle:number)
 
 参数:
 

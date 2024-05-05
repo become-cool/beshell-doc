@@ -1,32 +1,34 @@
 ---
-headerDepth: 1
+headerDepth: 2
 ---
 
-# JS模块: wifi
+# 模块: WiFi
 
-导入 `wifi` 模块：
+导入 `WiFi` 模块：
 
 ::: code-tabs
 
 @tab 在.js文件中
 
 ```javascript
-import * as wifi from 'wifi'
+import * as wifi from 'WiFi'
 ```
 
 @tab 在REPL命令行下
+
 ```javascript
-import wifi
+import WiFi
 ```
 
 :::
 
+## 模块函数
 
+<p style="height: 10px;margin:0px"></p>
 
-# API 函数
-## setPS
+### <span class='member-header function'></span> 函数  setPS
 
-原型: setPS (mode:0|1|2)
+原型:  setPS (mode:0|1|2)
 
 设置 wifi 的节能模式 (PowerSafe)
 
@@ -36,26 +38,28 @@ import wifi
 * 1 最小
 * 2 最大
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>mode</span>
 
-    <span style='display: inline-block; width:100px'>**类型**</span>0|1|2
+    <span style='display: inline-block; width:100px'>**类型**</span>0, 1, 2
 
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## setMode
+<p style="height: 10px;margin:0px"></p>
 
-原型: setMode (mode:0|1|2|3)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  setMode
+
+原型:  setMode (mode:0|1|2|3)
 
 设置 wifi 的工作模式
 
@@ -68,26 +72,28 @@ import wifi
 
 返回 0 表示 api 调用成功, 返回非 0 表示错误代码
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>mode</span>
 
-    <span style='display: inline-block; width:100px'>**类型**</span>0|1|2|3
+    <span style='display: inline-block; width:100px'>**类型**</span>0, 1, 2, 3
 
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## getMode
+<p style="height: 10px;margin:0px"></p>
 
-原型: getMode ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  getMode
+
+原型:  getMode ()
 
 返回设置 wifi 的工作模式
 
@@ -96,17 +102,19 @@ import wifi
 * 2 AP
 * 3 STA + AP
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## setAPConfig
+<p style="height: 10px;margin:0px"></p>
 
-原型: setAPConfig (config:object)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  setAPConfig
+
+原型:  setAPConfig (config:object)
 
 设置 wifi AP 模式的参数
 
@@ -129,7 +137,7 @@ import wifi
 
 返回 0 表示 api 调用成功, 返回非 0 表示错误代码
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>config</span>
 
@@ -138,17 +146,19 @@ import wifi
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## setStaConfig
+<p style="height: 10px;margin:0px"></p>
 
-原型: setStaConfig (config:object)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  setStaConfig
+
+原型:  setStaConfig (config:object)
 
 设置 wifi STA 模式的参数
 
@@ -169,7 +179,7 @@ import wifi
 
 返回 0 表示 api 调用成功, 返回非 0 表示错误代码
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>config</span>
 
@@ -178,42 +188,46 @@ import wifi
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## getConfig
+<p style="height: 10px;margin:0px"></p>
 
-原型: getConfig (mode:1|2)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  getConfig
+
+原型:  getConfig (mode:1|2)
 
 返回 wifi 的工作参数
 
 返回的对象可参考 `setStaConfig()` 和 `setAPConfig()` 的 `mode` 参数
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>mode</span>
 
-    <span style='display: inline-block; width:100px'>**类型**</span>1|2
+    <span style='display: inline-block; width:100px'>**类型**</span>1, 2
 
     <span style='display: inline-block; width:100px'>**参数说明**</span> 1代表 sta , 2代表 ap
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>object
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>object
 
 
 
-## staConnect
+<p style="height: 10px;margin:0px"></p>
 
-原型: staConnect ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  staConnect
+
+原型:  staConnect ()
 
 WiFi STA 连接到热点
 
@@ -223,33 +237,37 @@ ssid, password 等参数需要通过 wifi.setStaConfig() 设置
 
 连接成功或失败回触发回调函数, 回调函数由 wifi.registerEventHandle() 设置
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## staDisconnect
+<p style="height: 10px;margin:0px"></p>
 
-原型: staDisconnect ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  staDisconnect
+
+原型:  staDisconnect ()
 
 WiFi STA 断开连接
 
 返回 0 表示成功; 非 0 代表对应的错误
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>number
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
 
 
 
-## getIpInfo
+<p style="height: 10px;margin:0px"></p>
 
-原型: getIpInfo (type:number)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  getIpInfo
+
+原型:  getIpInfo (type:number)
 
 返回 AP/STA 的 IP 
 
@@ -262,7 +280,7 @@ function 返回一个对象, 包含 ip, netmask, gw 信息
 }
 ```
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>type</span>
 
@@ -271,21 +289,23 @@ function 返回一个对象, 包含 ip, netmask, gw 信息
     <span style='display: inline-block; width:100px'>**参数说明**</span>1代表 sta, 2代表 ap
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>object
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>object
 
 
 
-## setHostname
+<p style="height: 10px;margin:0px"></p>
 
-原型: setHostname (nane:string)
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  setHostname
+
+原型:  setHostname (nane:string)
 
 返回设置 wifi 的在局域网中可被显示的主机名
 
-### 参数:
+#### 参数:
 
 * <span style='color: #007acc'>nane</span>
 
@@ -294,17 +314,19 @@ function 返回一个对象, 包含 ip, netmask, gw 信息
     <span style='display: inline-block; width:100px'>**参数说明**</span>
 
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>undefined
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>undefined
 
 
 
-## allSta
+<p style="height: 10px;margin:0px"></p>
 
-原型: allSta ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  allSta
+
+原型:  allSta ()
 
 返回所有连接到本机AP的客户机
 
@@ -317,75 +339,85 @@ function 返回一个对象, 包含 ip, netmask, gw 信息
 
 `rssi` 值范围 -100 ~ 0, 单位为 dBm，表示信号强度，越大(绝对值越小)表示信号越强。
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>{mac:string,rssi:string}[]
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>{mac:string,rssi:string}[]
 
 
 
-## registerEventHandle
+<p style="height: 10px;margin:0px"></p>
 
-原型: registerEventHandle ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  registerEventHandle
+
+原型:  registerEventHandle ()
 
 注册一个事件函数, 当 wifi 状态变化时, 该函数会被调用
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>undefined
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>undefined
 
 
 
-## scanStart
+<p style="height: 10px;margin:0px"></p>
 
-原型: scanStart ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  scanStart
+
+原型:  scanStart ()
 
 开始扫描附近的AP
 
 > wifi STA 模式必须启动
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
-## scanStop
+<p style="height: 10px;margin:0px"></p>
 
-原型: scanStop ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  scanStop
+
+原型:  scanStop ()
 
 停止AP扫描
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
-## isScanning
+<p style="height: 10px;margin:0px"></p>
 
-原型: isScanning ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  isScanning
+
+原型:  isScanning ()
 
 返回 AP 扫描是否正在进行
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
-## scanRecords
+<p style="height: 10px;margin:0px"></p>
 
-原型: scanRecords ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  scanRecords
+
+原型:  scanRecords ()
 
 取回 AP 扫描的结果
 
@@ -402,53 +434,59 @@ function 返回一个对象, 包含 ip, netmask, gw 信息
 ]
 ```
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>object[]
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>object[]
 
 
 
-## staStarted
+<p style="height: 10px;margin:0px"></p>
 
-原型: staStarted ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  staStarted
+
+原型:  staStarted ()
 
 返回 WiFi STA 模式是否启动
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
-## staConnected
+<p style="height: 10px;margin:0px"></p>
 
-原型: staConnected ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  staConnected
+
+原型:  staConnected ()
 
 返回 WiFi STA 是否已经连接
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
 
-## apStarted
+<p style="height: 10px;margin:0px"></p>
 
-原型: apStarted ()
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  apStarted
+
+原型:  apStarted ()
 
 返回 WiFi AP 模式是否启用
 
-### 返回值:
+#### 返回值:
 
-<span style='display: inline-block; width:100px'>**类型**</span>bool
-
-
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
-                
+
+<p style="height: 10px;margin:0px"></p>
+
