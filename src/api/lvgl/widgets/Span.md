@@ -1,105 +1,187 @@
-`Span` 类是对 LVGL 的 Widget `lv_span_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Span
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 align
 
+类型: number
 
-### 方法：newSpan
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_spangroup_new_span()` 的包装
-
-原型: newSpan (obj:[Obj](../Obj))
-
-参数:
-
-* obj: [Obj](../Obj)
-
-返回值:
-lv_span_t *
+> 该属性是对 LVGL C API `lv_spangroup_get_align`, `lv_spangroup_set_align` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：deleteSpan
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spangroup_delete_span()` 的包装
+### <span class='member-header property'></span> 属性 overflow
 
-原型: deleteSpan (obj:[Obj](../Obj), span:lv_span_t *)
+类型: LV-CONST
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* span: lv_span_t *
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_spangroup_get_overflow`, `lv_spangroup_set_overflow` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：getChild
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spangroup_get_child()` 的包装
+### <span class='member-header property'></span> 属性 indent
 
-原型: getChild (obj:const lv_obj_t *, id:number)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: const lv_obj_t *
-
-* id: number
-
-返回值:
-lv_span_t *
+> 该属性是对 LVGL C API `lv_spangroup_get_indent`, `lv_spangroup_set_indent` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：getExpandWidth
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spangroup_get_expand_width()` 的包装
+### <span class='member-header property'></span> 属性 mode
 
-原型: getExpandWidth (obj:[Obj](../Obj), max_width:number)
+类型: LV-CONST
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* max_width: number
-
-返回值:
-number
+> 该属性是对 LVGL C API `lv_spangroup_get_mode`, `lv_spangroup_set_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：getExpandHeight
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spangroup_get_expand_height()` 的包装
+### <span class='member-header property'></span> 属性 maxLines
 
-原型: getExpandHeight (obj:[Obj](../Obj), width:number)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* width: number
-
-返回值:
-number
+> 该属性是对 LVGL C API `lv_spangroup_get_max_lines`, `lv_spangroup_set_max_lines` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：refrMode
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spangroup_refr_mode()` 的包装
+### <span class='member-header property'></span> 属性 spanCount
 
-原型: refrMode (obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_spangroup_get_span_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 maxLineHeight
+
+类型: number
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_spangroup_get_max_line_height` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+## 类方法
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  newSpan
+
+
+原型:  newSpan
+ ()
+
+> 该方法是对 LVGL C API `lv_spangroup_new_span` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getChild
+
+
+原型:  getChild
+ ()
+
+> 该方法是对 LVGL C API `lv_spangroup_get_child` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getExpandWidth
+
+
+原型:  getExpandWidth
+ ()
+
+> 该方法是对 LVGL C API `lv_spangroup_get_expand_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getExpandHeight
+
+
+原型:  getExpandHeight
+ ()
+
+> 该方法是对 LVGL C API `lv_spangroup_get_expand_height` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  refrMode
+
+
+原型:  refrMode
+ ()
+
+> 该方法是对 LVGL C API `lv_spangroup_refr_mode` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

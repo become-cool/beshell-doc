@@ -1,120 +1,245 @@
-`Menu` 类是对 LVGL 的 Widget `lv_menu_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Menu
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 page
 
+类型: [obj](obj.html)
 
-### 方法：pageCreate
+访问: 只写
 
-> 该方法是对 LVGL C API `lv_menu_page_create()` 的包装
-
-原型: pageCreate (parent:[Obj](../Obj), title:char const * const)
-
-参数:
-
-* parent: [Obj](../Obj)
-
-* title: char const * const
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_menu_set_page` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：contCreate
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_menu_cont_create()` 的包装
+### <span class='member-header property'></span> 属性 sidebarPage
 
-原型: contCreate (parent:[Obj](../Obj))
+类型: [obj](obj.html)
 
-参数:
+访问: 只写
 
-* parent: [Obj](../Obj)
-
-返回值:
-[Obj](../Obj)
-
+> 该属性是对 LVGL C API `lv_menu_set_sidebar_page` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：sectionCreate
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_menu_section_create()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: sectionCreate (parent:[Obj](../Obj))
+### <span class='member-header property'></span> 属性 modeHeader
 
-参数:
+类型: LV-CONST
 
-* parent: [Obj](../Obj)
+访问: 只写
 
-返回值:
-[Obj](../Obj)
-
-
-
-### 方法：separatorCreate
-
-> 该方法是对 LVGL C API `lv_menu_separator_create()` 的包装
-
-原型: separatorCreate (parent:[Obj](../Obj))
-
-参数:
-
-* parent: [Obj](../Obj)
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_menu_set_mode_header` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setLoadPageEvent
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_menu_set_load_page_event()` 的包装
+### <span class='member-header property'></span> 属性 modeRootBackButton
 
-原型: setLoadPageEvent (menu:[Obj](../Obj), obj:[Obj](../Obj), page:[Obj](../Obj))
+类型: LV-CONST
 
-参数:
+访问: 只写
 
-* menu: [Obj](../Obj)
-
-* obj: [Obj](../Obj)
-
-* page: [Obj](../Obj)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_menu_set_mode_root_back_button` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：backButtonIsRoot
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_menu_back_button_is_root()` 的包装
+### <span class='member-header property'></span> 属性 curMainPage
 
-原型: backButtonIsRoot (menu:[Obj](../Obj), obj:[Obj](../Obj))
+类型: [obj](obj.html)
 
-参数:
+访问: 只读
 
-* menu: [Obj](../Obj)
-
-* obj: [Obj](../Obj)
-
-返回值:
-bool
+> 该属性是对 LVGL C API `lv_menu_get_cur_main_page` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：clearHistory
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_menu_clear_history()` 的包装
+### <span class='member-header property'></span> 属性 curSidebarPage
 
-原型: clearHistory (obj:[Obj](../Obj))
+类型: [obj](obj.html)
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_menu_get_cur_sidebar_page` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 mainHeader
+
+类型: [obj](obj.html)
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_menu_get_main_header` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 mainHeaderBackButton
+
+类型: [obj](obj.html)
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_menu_get_main_header_back_button` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 sidebarHeader
+
+类型: [obj](obj.html)
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_menu_get_sidebar_header` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 sidebarHeaderBackButton
+
+类型: [obj](obj.html)
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_menu_get_sidebar_header_back_button` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+## 类方法
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  contCreate
+
+
+原型:  contCreate
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_cont_create` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  sectionCreate
+
+
+原型:  sectionCreate
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_section_create` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  separatorCreate
+
+
+原型:  separatorCreate
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_separator_create` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setLoadPageEvent
+
+
+原型:  setLoadPageEvent
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_set_load_page_event` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  backButtonIsRoot
+
+
+原型:  backButtonIsRoot
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_back_button_is_root` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  clearHistory
+
+
+原型:  clearHistory
+ ()
+
+> 该方法是对 LVGL C API `lv_menu_clear_history` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

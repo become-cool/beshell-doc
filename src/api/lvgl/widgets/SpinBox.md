@@ -1,105 +1,175 @@
-`SpinBox` 类是对 LVGL 的 Widget `lv_spinbox_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: SpinBox
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 value
 
+类型: number
 
-### 方法：setDigitFormat
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_spinbox_set_digit_format()` 的包装
-
-原型: setDigitFormat (obj:[Obj](../Obj), digit_count:number, sep_pos:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* digit_count: number
-
-* sep_pos: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_spinbox_get_value`, `lv_spinbox_set_value` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setRange
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spinbox_set_range()` 的包装
+### <span class='member-header property'></span> 属性 rollover
 
-原型: setRange (obj:[Obj](../Obj), range_min:number, range_max:number)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* range_min: number
-
-* range_max: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_spinbox_get_rollover`, `lv_spinbox_set_rollover` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：stepNext
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spinbox_step_next()` 的包装
+### <span class='member-header property'></span> 属性 step
 
-原型: stepNext (obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-返回值:
-undefined
-
+> 该属性是对 LVGL C API `lv_spinbox_get_step`, `lv_spinbox_set_step` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：stepPrev
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spinbox_step_prev()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: stepPrev (obj:[Obj](../Obj))
+### <span class='member-header property'></span> 属性 cursorPos
 
-参数:
+类型: number
 
-* obj: [Obj](../Obj)
+访问: 只写
 
-返回值:
-undefined
-
-
-
-### 方法：increment
-
-> 该方法是对 LVGL C API `lv_spinbox_increment()` 的包装
-
-原型: increment (obj:[Obj](../Obj))
-
-参数:
-
-* obj: [Obj](../Obj)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_spinbox_set_cursor_pos` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：decrement
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_spinbox_decrement()` 的包装
+### <span class='member-header property'></span> 属性 digitStepDirection
 
-原型: decrement (obj:[Obj](../Obj))
+类型: LV-CONST
 
-参数:
+访问: 只写
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_spinbox_set_digit_step_direction` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
+
+## 类方法
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setDigitFormat
+
+
+原型:  setDigitFormat
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_set_digit_format` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setRange
+
+
+原型:  setRange
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  stepNext
+
+
+原型:  stepNext
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_step_next` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  stepPrev
+
+
+原型:  stepPrev
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_step_prev` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  increment
+
+
+原型:  increment
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_increment` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  decrement
+
+
+原型:  decrement
+ ()
+
+> 该方法是对 LVGL C API `lv_spinbox_decrement` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

@@ -3,129 +3,441 @@ headerDepth: 2
 ---
 
 # 类: Obj
+## 类属性
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 state
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_state` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 eventCount
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_event_count` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 x
+
+类型: number
+
+访问: 可读, 可写
+
 > 该属性是对 LVGL C API `lv_obj_get_x`, `lv_obj_set_x` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 y
+
+类型: number
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_y`, `lv_obj_set_y` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 width
+
+类型: number
+
+访问: 可读, 可写
+
 > 该属性是对 LVGL C API `lv_obj_get_width`, `lv_obj_set_width` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 height
+
+类型: number
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_height`, `lv_obj_set_height` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 contentWidth
+
+类型: number
+
+访问: 可读, 可写
+
 > 该属性是对 LVGL C API `lv_obj_get_content_width`, `lv_obj_set_content_width` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 contentHeight
+
+类型: number
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_content_height`, `lv_obj_set_content_height` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 layout
+
+类型: number
+
+访问: 只写
+
 > 该属性是对 LVGL C API `lv_obj_set_layout` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 align
+
+类型: LV-CONST
+
+访问: 只写
 
 > 该属性是对 LVGL C API `lv_obj_set_align` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 xAligned
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_x_aligned` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 yAligned
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_y_aligned` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 selfWidth
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_self_width` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 selfHeight
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_self_height` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 extClickArea
+
+类型: number
+
+访问: 只写
+
 > 该属性是对 LVGL C API `lv_obj_set_ext_click_area` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollbarMode
+
+类型: number
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_scrollbar_mode`, `lv_obj_set_scrollbar_mode` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollDir
+
+类型: LV-CONST
+
+访问: 可读, 可写
+
 > 该属性是对 LVGL C API `lv_obj_get_scroll_dir`, `lv_obj_set_scroll_dir` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollSnapX
+
+类型: number
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_scroll_snap_x`, `lv_obj_set_scroll_snap_x` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollSnapY
+
+类型: number
+
+访问: 可读, 可写
+
 > 该属性是对 LVGL C API `lv_obj_get_scroll_snap_y`, `lv_obj_set_scroll_snap_y` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollX
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_scroll_x` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollY
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_scroll_y` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollTop
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_scroll_top` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollBottom
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_scroll_bottom` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollLeft
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_scroll_left` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 scrollRight
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_scroll_right` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 parent
+
+类型: [obj](obj.html)
+
+访问: 可读, 可写
 
 > 该属性是对 LVGL C API `lv_obj_get_parent`, `lv_obj_set_parent` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 screen
+
+类型: [obj](obj.html)
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_screen` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 childCount
+
+类型: number
+
+访问: 只读
 
 > 该属性是对 LVGL C API `lv_obj_get_child_count` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 index
+
+类型: number
+
+访问: 只读
+
 > 该属性是对 LVGL C API `lv_obj_get_index` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 flexFlow
+
+类型: LV-CONST
+
+访问: 只写
 
 > 该属性是对 LVGL C API `lv_obj_set_flex_flow` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 flexGrow
+
+类型: number
+
+访问: 只写
+
 > 该属性是对 LVGL C API `lv_obj_set_flex_grow` 的封装，
 > 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+
+<p style="height: 10px;margin:0px"></p>
 
 ## 类方法
 

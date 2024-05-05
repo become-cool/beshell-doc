@@ -1,417 +1,127 @@
-`Chart` 类是对 LVGL 的 Widget `lv_chart_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Chart
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 type
 
+类型: LV-CONST
 
-### 方法：setRange
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_chart_set_range()` 的包装
+> 该属性是对 LVGL C API `lv_chart_get_type`, `lv_chart_set_type` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: setRange (obj:[Obj](../Obj), axis:string, min:number, max:number)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* axis: [lv_chart_axis_t](../const/#lv_chart_axis_t)
+### <span class='member-header property'></span> 属性 pointCount
 
-* min: number
+类型: number
 
-* max: number
+访问: 可读, 可写
 
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_chart_get_point_count`, `lv_chart_set_point_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setDivLineCount
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_chart_set_div_line_count()` 的包装
+### <span class='member-header property'></span> 属性 updateMode
 
-原型: setDivLineCount (obj:[Obj](../Obj), hdiv:number, vdiv:number)
+类型: LV-CONST
 
-参数:
+访问: 只写
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_chart_set_update_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* hdiv: number
 
-* vdiv: number
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 pressedPoint
 
+类型: number
 
-### 方法：getXStartPoint
+访问: 只读
 
-> 该方法是对 LVGL C API `lv_chart_get_x_start_point()` 的包装
+> 该属性是对 LVGL C API `lv_chart_get_pressed_point` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: getXStartPoint (obj:const lv_obj_t *, ser:lv_chart_series_t *)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: const lv_obj_t *
+<p style="height: 10px;margin:0px"></p>
 
-* ser: lv_chart_series_t *
+### <span class='member-header property'></span> 属性 firstPointCenterOffset
 
-返回值:
-number
+类型: number
 
+访问: 只读
 
+> 该属性是对 LVGL C API `lv_chart_get_first_point_center_offset` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：getPointPosById
 
-> 该方法是对 LVGL C API `lv_chart_get_point_pos_by_id()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: getPointPosById (obj:[Obj](../Obj), ser:lv_chart_series_t *, id:number, p_out:lv_point_t *)
+## 类方法
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+### <span class='member-header function'></span> 方法  setRange
 
-* ser: lv_chart_series_t *
 
-* id: number
+原型:  setRange
+ ()
 
-* p_out: lv_point_t *
+> 该方法是对 LVGL C API `lv_chart_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
+#### 返回值:
 
+`undefined`
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：refresh
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_chart_refresh()` 的包装
+### <span class='member-header function'></span> 方法  setDivLineCount
 
-原型: refresh (obj:[Obj](../Obj))
 
-参数:
+原型:  setDivLineCount
+ ()
 
-* obj: [Obj](../Obj)
+> 该方法是对 LVGL C API `lv_chart_set_div_line_count` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
+#### 返回值:
 
+`undefined`
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addSeries
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_chart_add_series()` 的包装
+### <span class='member-header function'></span> 方法  refresh
 
-原型: addSeries (obj:[Obj](../Obj), color:number, axis:string)
 
-参数:
+原型:  refresh
+ ()
 
-* obj: [Obj](../Obj)
+> 该方法是对 LVGL C API `lv_chart_refresh` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* color: number
+#### 返回值:
 
-* axis: [lv_chart_axis_t](../const/#lv_chart_axis_t)
+`undefined`
 
-返回值:
-lv_chart_series_t *
-
-
-
-### 方法：removeSeries
-
-> 该方法是对 LVGL C API `lv_chart_remove_series()` 的包装
-
-原型: removeSeries (obj:[Obj](../Obj), series:lv_chart_series_t *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* series: lv_chart_series_t *
-
-返回值:
-undefined
-
-
-
-### 方法：hideSeries
-
-> 该方法是对 LVGL C API `lv_chart_hide_series()` 的包装
-
-原型: hideSeries (chart:[Obj](../Obj), series:lv_chart_series_t *, hide:bool)
-
-参数:
-
-* chart: [Obj](../Obj)
-
-* series: lv_chart_series_t *
-
-* hide: bool
-
-返回值:
-undefined
-
-
-
-### 方法：setSeriesColor
-
-> 该方法是对 LVGL C API `lv_chart_set_series_color()` 的包装
-
-原型: setSeriesColor (chart:[Obj](../Obj), series:lv_chart_series_t *, color:number)
-
-参数:
-
-* chart: [Obj](../Obj)
-
-* series: lv_chart_series_t *
-
-* color: number
-
-返回值:
-undefined
-
-
-
-### 方法：setXStartPoint
-
-> 该方法是对 LVGL C API `lv_chart_set_x_start_point()` 的包装
-
-原型: setXStartPoint (obj:[Obj](../Obj), ser:lv_chart_series_t *, id:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* id: number
-
-返回值:
-undefined
-
-
-
-### 方法：getSeriesNext
-
-> 该方法是对 LVGL C API `lv_chart_get_series_next()` 的包装
-
-原型: getSeriesNext (chart:const lv_obj_t *, ser:const lv_chart_series_t *)
-
-参数:
-
-* chart: const lv_obj_t *
-
-* ser: const lv_chart_series_t *
-
-返回值:
-lv_chart_series_t *
-
-
-
-### 方法：addCursor
-
-> 该方法是对 LVGL C API `lv_chart_add_cursor()` 的包装
-
-原型: addCursor (obj:[Obj](../Obj), color:number, dir:string)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* color: number
-
-* dir: [lv_dir_t](../const/#lv_dir_t)
-
-返回值:
-lv_chart_cursor_t  *
-
-
-
-### 方法：setCursorPos
-
-> 该方法是对 LVGL C API `lv_chart_set_cursor_pos()` 的包装
-
-原型: setCursorPos (chart:[Obj](../Obj), cursor:lv_chart_cursor_t *, pos:lv_point_t *)
-
-参数:
-
-* chart: [Obj](../Obj)
-
-* cursor: lv_chart_cursor_t *
-
-* pos: lv_point_t *
-
-返回值:
-undefined
-
-
-
-### 方法：setCursorPoint
-
-> 该方法是对 LVGL C API `lv_chart_set_cursor_point()` 的包装
-
-原型: setCursorPoint (chart:[Obj](../Obj), cursor:lv_chart_cursor_t *, ser:lv_chart_series_t *, point_id:number)
-
-参数:
-
-* chart: [Obj](../Obj)
-
-* cursor: lv_chart_cursor_t *
-
-* ser: lv_chart_series_t *
-
-* point_id: number
-
-返回值:
-undefined
-
-
-
-### 方法：getCursorPoint
-
-> 该方法是对 LVGL C API `lv_chart_get_cursor_point()` 的包装
-
-原型: getCursorPoint (chart:[Obj](../Obj), cursor:lv_chart_cursor_t *)
-
-参数:
-
-* chart: [Obj](../Obj)
-
-* cursor: lv_chart_cursor_t *
-
-返回值:
-lv_point_t
-
-
-
-### 方法：setAllValue
-
-> 该方法是对 LVGL C API `lv_chart_set_all_value()` 的包装
-
-原型: setAllValue (obj:[Obj](../Obj), ser:lv_chart_series_t *, value:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* value: number
-
-返回值:
-undefined
-
-
-
-### 方法：setNextValue
-
-> 该方法是对 LVGL C API `lv_chart_set_next_value()` 的包装
-
-原型: setNextValue (obj:[Obj](../Obj), ser:lv_chart_series_t *, value:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* value: number
-
-返回值:
-undefined
-
-
-
-### 方法：setValueById
-
-> 该方法是对 LVGL C API `lv_chart_set_value_by_id()` 的包装
-
-原型: setValueById (obj:[Obj](../Obj), ser:lv_chart_series_t *, id:number, value:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* id: number
-
-* value: number
-
-返回值:
-undefined
-
-
-
-### 方法：setExtYArray
-
-> 该方法是对 LVGL C API `lv_chart_set_ext_y_array()` 的包装
-
-原型: setExtYArray (obj:[Obj](../Obj), ser:lv_chart_series_t *, array:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* array: number
-
-返回值:
-undefined
-
-
-
-### 方法：setExtXArray
-
-> 该方法是对 LVGL C API `lv_chart_set_ext_x_array()` 的包装
-
-原型: setExtXArray (obj:[Obj](../Obj), ser:lv_chart_series_t *, array:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* ser: lv_chart_series_t *
-
-* array: number
-
-返回值:
-undefined
-
-
-
-### 方法：getYArray
-
-> 该方法是对 LVGL C API `lv_chart_get_y_array()` 的包装
-
-原型: getYArray (obj:const lv_obj_t *, ser:lv_chart_series_t *)
-
-参数:
-
-* obj: const lv_obj_t *
-
-* ser: lv_chart_series_t *
-
-返回值:
-number
-
-
-
-### 方法：getXArray
-
-> 该方法是对 LVGL C API `lv_chart_get_x_array()` 的包装
-
-原型: getXArray (obj:const lv_obj_t *, ser:lv_chart_series_t *)
-
-参数:
-
-* obj: const lv_obj_t *
-
-* ser: lv_chart_series_t *
-
-返回值:
-number
-
+<p style="height: 10px;margin:0px"></p>
 

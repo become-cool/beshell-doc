@@ -1,139 +1,233 @@
-`Dropdown` 类是对 LVGL 的 Widget `lv_dropdown_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Dropdown
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 text
 
+类型: 
 
-### 方法：bindValue
+访问: 只写
 
-> 该方法是对 LVGL C API `lv_dropdown_bind_value()` 的包装
+> 该属性是对 LVGL C API `lv_dropdown_set_text` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: bindValue (obj:[Obj](../Obj), subject:lv_subject_t *)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* subject: lv_subject_t *
+### <span class='member-header property'></span> 属性 options
 
-返回值:
-lv_observer_t *
+类型: 
 
+访问: 只写
 
+> 该属性是对 LVGL C API `lv_dropdown_set_options` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：addOption
 
-> 该方法是对 LVGL C API `lv_dropdown_add_option()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: addOption (obj:[Obj](../Obj), option:const char *, pos:number)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 optionsStatic
 
-* obj: [Obj](../Obj)
+类型: 
 
-* option: const char *
+访问: 只写
 
-* pos: number
+> 该属性是对 LVGL C API `lv_dropdown_set_options_static` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：clearOptions
+### <span class='member-header property'></span> 属性 selected
 
-> 该方法是对 LVGL C API `lv_dropdown_clear_options()` 的包装
+类型: number
 
-原型: clearOptions (obj:[Obj](../Obj))
+访问: 可读, 可写
 
-参数:
+> 该属性是对 LVGL C API `lv_dropdown_get_selected`, `lv_dropdown_set_selected` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* obj: [Obj](../Obj)
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 dir
 
-### 方法：getSelectedStr
+类型: LV-CONST
 
-> 该方法是对 LVGL C API `lv_dropdown_get_selected_str()` 的包装
+访问: 可读, 可写
 
-原型: getSelectedStr (obj:const lv_obj_t *, buf:char *, buf_size:number)
+> 该属性是对 LVGL C API `lv_dropdown_get_dir`, `lv_dropdown_set_dir` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-参数:
 
-* obj: const lv_obj_t *
+<p style="height: 10px;margin:0px"></p>
 
-* buf: char *
+<p style="height: 10px;margin:0px"></p>
 
-* buf_size: number
+### <span class='member-header property'></span> 属性 selectedHighlight
 
-返回值:
-undefined
+类型: number
 
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_dropdown_get_selected_highlight`, `lv_dropdown_set_selected_highlight` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：getOptionIndex
 
-> 该方法是对 LVGL C API `lv_dropdown_get_option_index()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: getOptionIndex (obj:[Obj](../Obj), option:const char *)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 list
 
-* obj: [Obj](../Obj)
+类型: [obj](obj.html)
 
-* option: const char *
+访问: 只读
 
-返回值:
-number
+> 该属性是对 LVGL C API `lv_dropdown_get_list` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：open
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_dropdown_open()` 的包装
+### <span class='member-header property'></span> 属性 optionCount
 
-原型: open (dropdown_obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 只读
 
-* dropdown_obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_dropdown_get_option_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
 
+## 类方法
 
-### 方法：close
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_dropdown_close()` 的包装
+### <span class='member-header function'></span> 方法  addOption
 
-原型: close (obj:[Obj](../Obj))
 
-参数:
+原型:  addOption
+ ()
 
-* obj: [Obj](../Obj)
+> 该方法是对 LVGL C API `lv_dropdown_add_option` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
+#### 返回值:
 
+`undefined`
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：isOpen
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_dropdown_is_open()` 的包装
+### <span class='member-header function'></span> 方法  clearOptions
 
-原型: isOpen (obj:[Obj](../Obj))
 
-参数:
+原型:  clearOptions
+ ()
 
-* obj: [Obj](../Obj)
+> 该方法是对 LVGL C API `lv_dropdown_clear_options` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-bool
+#### 返回值:
 
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getSelectedStr
+
+
+原型:  getSelectedStr
+ ()
+
+> 该方法是对 LVGL C API `lv_dropdown_get_selected_str` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getOptionIndex
+
+
+原型:  getOptionIndex
+ ()
+
+> 该方法是对 LVGL C API `lv_dropdown_get_option_index` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  open
+
+
+原型:  open
+ ()
+
+> 该方法是对 LVGL C API `lv_dropdown_open` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  close
+
+
+原型:  close
+ ()
+
+> 该方法是对 LVGL C API `lv_dropdown_close` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  isOpen
+
+
+原型:  isOpen
+ ()
+
+> 该方法是对 LVGL C API `lv_dropdown_is_open` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

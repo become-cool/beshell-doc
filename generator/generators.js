@@ -129,6 +129,36 @@ import ${doc.name}
 }
 
 
+
+function propertyDocGenerator (doc) {
+    let [name, type] = doc["@property"].pop().trim().split(":")
+
+    let md = '<p style="height: 10px;margin:0px"></p>\r\n\r\n'
+
+    md+= `### <span class='member-header property'></span> 属性 ${name}\r\n\r\n`
+
+    md+= `类型: ${type}\r\n\r\n`
+
+    if(doc._) {
+        md+= doc._.join("\r\n") + '\r\n'
+    }
+
+    return md + '\r\n<p style="height: 10px;margin:0px"></p>'
+}
+
+function generateAllProperties(doc) {
+    let mdProps = []
+    for(let propDoc of doc.props||[]) {
+        try{
+            mdProps.push(propertyDocGenerator(propDoc))
+        }catch(e){
+            console.log(e)
+        }
+    }
+    return mdProps
+}
+
+
 function classDocGenerator(doc){
     
 
@@ -141,6 +171,11 @@ headerDepth: 2
 
     if(doc.desc.length>0) {
         md+= `${doc.desc.join("\r\n\r\n")}\r\n\r\n`
+    }
+
+    if(doc.props.length>0){
+        md+= `## 类属性\r\n\r\n`
+        md+= generateAllProperties(doc).join("\r\n\r\n") + '\r\n\r\n'
     }
 
     if(doc.funcs.length>0){

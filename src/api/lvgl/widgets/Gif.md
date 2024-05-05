@@ -1,52 +1,55 @@
-`Gif` 类是对 LVGL 的 Widget `lv_gif_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Img**
+# 类: Gif
+## 类方法
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
-
-
-### 方法：restart
-
-> 该方法是对 LVGL C API `lv_gif_restart()` 的包装
-
-原型: restart (obj:[Obj](../Obj))
-
-参数:
-
-* obj: [Obj](../Obj)
-
-返回值:
-undefined
+### <span class='member-header function'></span> 方法  restart
 
 
+原型:  restart
+ ()
 
-### 方法：pause
+> 该方法是对 LVGL C API `lv_gif_restart` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_gif_pause()` 的包装
+#### 返回值:
 
-原型: pause (obj:[Obj](../Obj))
+`undefined`
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
-
+### <span class='member-header function'></span> 方法  pause
 
 
-### 方法：resume
+原型:  pause
+ ()
 
-> 该方法是对 LVGL C API `lv_gif_resume()` 的包装
+> 该方法是对 LVGL C API `lv_gif_pause` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: resume (obj:[Obj](../Obj))
+#### 返回值:
 
-参数:
+`undefined`
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header function'></span> 方法  resume
+
+
+原型:  resume
+ ()
+
+> 该方法是对 LVGL C API `lv_gif_resume` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

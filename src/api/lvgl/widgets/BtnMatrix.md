@@ -1,117 +1,145 @@
-`BtnMatrix` 类是对 LVGL 的 Widget `lv_buttonmatrix_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: BtnMatrix
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 selectedButton
 
+类型: number
 
-### 方法：setButtonCtrl
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_ctrl()` 的包装
-
-原型: setButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* btn_id: number
-
-* ctrl: [lv_buttonmatrix_ctrl_t](../const/#lv_buttonmatrix_ctrl_t)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_buttonmatrix_get_selected_button`, `lv_buttonmatrix_set_selected_button` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：clearButtonCtrl
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl()` 的包装
+### <span class='member-header property'></span> 属性 buttonCtrlAll
 
-原型: clearButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+类型: LV-CONST
 
-参数:
+访问: 只写
 
-* obj: [Obj](../Obj)
-
-* btn_id: number
-
-* ctrl: [lv_buttonmatrix_ctrl_t](../const/#lv_buttonmatrix_ctrl_t)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_buttonmatrix_set_button_ctrl_all` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：clearButtonCtrlAll
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl_all()` 的包装
+### <span class='member-header property'></span> 属性 oneChecked
 
-原型: clearButtonCtrlAll (obj:[Obj](../Obj), ctrl:string)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* ctrl: [lv_buttonmatrix_ctrl_t](../const/#lv_buttonmatrix_ctrl_t)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_buttonmatrix_get_one_checked`, `lv_buttonmatrix_set_one_checked` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setButtonWidth
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_width()` 的包装
+### <span class='member-header property'></span> 属性 popovers
 
-原型: setButtonWidth (obj:[Obj](../Obj), btn_id:number, width:number)
+类型: number
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* btn_id: number
-
-* width: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_buttonmatrix_get_popovers` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：getButtonText
+## 类方法
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_get_button_text()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: getButtonText (obj:const lv_obj_t *, btn_id:number)
-
-参数:
-
-* obj: const lv_obj_t *
-
-* btn_id: number
-
-返回值:
-const char *
+### <span class='member-header function'></span> 方法  setButtonCtrl
 
 
+原型:  setButtonCtrl
+ ()
 
-### 方法：hasButtonCtrl
+> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_has_button_ctrl()` 的包装
+#### 返回值:
 
-原型: hasButtonCtrl (obj:[Obj](../Obj), btn_id:number, ctrl:string)
+`undefined`
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* btn_id: number
+### <span class='member-header function'></span> 方法  clearButtonCtrl
 
-* ctrl: [lv_buttonmatrix_ctrl_t](../const/#lv_buttonmatrix_ctrl_t)
 
-返回值:
-bool
+原型:  clearButtonCtrl
+ ()
 
+> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  clearButtonCtrlAll
+
+
+原型:  clearButtonCtrlAll
+ ()
+
+> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl_all` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setButtonWidth
+
+
+原型:  setButtonWidth
+ ()
+
+> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  hasButtonCtrl
+
+
+原型:  hasButtonCtrl
+ ()
+
+> 该方法是对 LVGL C API `lv_buttonmatrix_has_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

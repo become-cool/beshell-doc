@@ -1,228 +1,133 @@
-`Table` 类是对 LVGL 的 Widget `lv_table_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Table
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 rowCount
 
+类型: number
 
-### 方法：setCellValue
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_table_set_cell_value()` 的包装
+> 该属性是对 LVGL C API `lv_table_get_row_count`, `lv_table_set_row_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: setCellValue (obj:[Obj](../Obj), row:number, col:number, txt:const char *)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* row: number
+### <span class='member-header property'></span> 属性 columnCount
 
-* col: number
+类型: number
 
-* txt: const char *
+访问: 可读, 可写
 
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_table_get_column_count`, `lv_table_set_column_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setCellValueFmt
+## 类方法
 
-> 该方法是对 LVGL C API `lv_table_set_cell_value_fmt()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: setCellValueFmt (obj:[Obj](../Obj), row:number, col:number, fmt:const char *, ...:)
+### <span class='member-header function'></span> 方法  setCellValue
 
-参数:
 
-* obj: [Obj](../Obj)
+原型:  setCellValue
+ ()
 
-* row: number
+> 该方法是对 LVGL C API `lv_table_set_cell_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* col: number
+#### 返回值:
 
-* fmt: const char *
+`undefined`
 
-* ...: 
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header function'></span> 方法  setColumnWidth
 
 
-### 方法：setColumnWidth
+原型:  setColumnWidth
+ ()
 
-> 该方法是对 LVGL C API `lv_table_set_column_width()` 的包装
+> 该方法是对 LVGL C API `lv_table_set_column_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: setColumnWidth (obj:[Obj](../Obj), col_id:number, w:number)
+#### 返回值:
 
-参数:
+`undefined`
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* col_id: number
+<p style="height: 10px;margin:0px"></p>
 
-* w: number
+### <span class='member-header function'></span> 方法  addCellCtrl
 
-返回值:
-undefined
 
+原型:  addCellCtrl
+ ()
 
+> 该方法是对 LVGL C API `lv_table_add_cell_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：addCellCtrl
+#### 返回值:
 
-> 该方法是对 LVGL C API `lv_table_add_cell_ctrl()` 的包装
+`undefined`
 
-原型: addCellCtrl (obj:[Obj](../Obj), row:number, col:number, ctrl:string)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+### <span class='member-header function'></span> 方法  clearCellCtrl
 
-* row: number
 
-* col: number
+原型:  clearCellCtrl
+ ()
 
-* ctrl: [lv_table_cell_ctrl_t](../const/#lv_table_cell_ctrl_t)
+> 该方法是对 LVGL C API `lv_table_clear_cell_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
+#### 返回值:
 
+`undefined`
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：clearCellCtrl
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_table_clear_cell_ctrl()` 的包装
+### <span class='member-header function'></span> 方法  getColumnWidth
 
-原型: clearCellCtrl (obj:[Obj](../Obj), row:number, col:number, ctrl:string)
 
-参数:
+原型:  getColumnWidth
+ ()
 
-* obj: [Obj](../Obj)
+> 该方法是对 LVGL C API `lv_table_get_column_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* row: number
+#### 返回值:
 
-* col: number
+`undefined`
 
-* ctrl: [lv_table_cell_ctrl_t](../const/#lv_table_cell_ctrl_t)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header function'></span> 方法  hasCellCtrl
 
 
-### 方法：setCellUserData
+原型:  hasCellCtrl
+ ()
 
-> 该方法是对 LVGL C API `lv_table_set_cell_user_data()` 的包装
+> 该方法是对 LVGL C API `lv_table_has_cell_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: setCellUserData (obj:[Obj](../Obj), row:number, col:number, user_data:undefined)
+#### 返回值:
 
-参数:
+`undefined`
 
-* obj: [Obj](../Obj)
-
-* row: number
-
-* col: number
-
-* user_data: undefined
-
-返回值:
-undefined
-
-
-
-### 方法：getCellValue
-
-> 该方法是对 LVGL C API `lv_table_get_cell_value()` 的包装
-
-原型: getCellValue (obj:[Obj](../Obj), row:number, col:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* row: number
-
-* col: number
-
-返回值:
-const char *
-
-
-
-### 方法：getColumnWidth
-
-> 该方法是对 LVGL C API `lv_table_get_column_width()` 的包装
-
-原型: getColumnWidth (obj:[Obj](../Obj), col:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* col: number
-
-返回值:
-number
-
-
-
-### 方法：hasCellCtrl
-
-> 该方法是对 LVGL C API `lv_table_has_cell_ctrl()` 的包装
-
-原型: hasCellCtrl (obj:[Obj](../Obj), row:number, col:number, ctrl:string)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* row: number
-
-* col: number
-
-* ctrl: [lv_table_cell_ctrl_t](../const/#lv_table_cell_ctrl_t)
-
-返回值:
-bool
-
-
-
-### 方法：getSelectedCell
-
-> 该方法是对 LVGL C API `lv_table_get_selected_cell()` 的包装
-
-原型: getSelectedCell (obj:[Obj](../Obj), row:number, col:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* row: number
-
-* col: number
-
-返回值:
-undefined
-
-
-
-### 方法：getCellUserData
-
-> 该方法是对 LVGL C API `lv_table_get_cell_user_data()` 的包装
-
-原型: getCellUserData (obj:[Obj](../Obj), row:number, col:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* row: number
-
-* col: number
-
-返回值:
-undefined
-
+<p style="height: 10px;margin:0px"></p>
 

@@ -1,338 +1,151 @@
-`Img` 类是对 LVGL 的 Widget `lv_image_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Img
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 offsetX
 
+类型: number
 
-### 方法：srcGetType
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_image_src_get_type()` 的包装
+> 该属性是对 LVGL C API `lv_image_get_offset_x`, `lv_image_set_offset_x` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: srcGetType (src:const void *)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* src: const void *
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-string
+### <span class='member-header property'></span> 属性 offsetY
 
-该函数的返回值是一个字符串常量: [lv_image_src_t](../const/#lv_image_src_t)
+类型: number
 
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_image_get_offset_y`, `lv_image_set_offset_y` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：bufSetPalette
 
-> 该方法是对 LVGL C API `lv_image_buf_set_palette()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: bufSetPalette (dsc:lv_image_dsc_t *, id:number, c:lv_color32_t)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 rotation
 
-* dsc: lv_image_dsc_t *
+类型: number
 
-* id: number
+访问: 可读, 可写
 
-* c: lv_color32_t
+> 该属性是对 LVGL C API `lv_image_get_rotation`, `lv_image_set_rotation` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：bufFree
+### <span class='member-header property'></span> 属性 scale
 
-> 该方法是对 LVGL C API `lv_image_buf_free()` 的包装
+类型: number
 
-原型: bufFree (dsc:lv_image_dsc_t *)
+访问: 可读, 可写
 
-参数:
+> 该属性是对 LVGL C API `lv_image_get_scale`, `lv_image_set_scale` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* dsc: lv_image_dsc_t *
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 scaleX
 
-### 方法：decoderGetInfo
+类型: number
 
-> 该方法是对 LVGL C API `lv_image_decoder_get_info()` 的包装
+访问: 可读, 可写
 
-原型: decoderGetInfo (src:const void *, header:lv_image_header_t *)
+> 该属性是对 LVGL C API `lv_image_get_scale_x`, `lv_image_set_scale_x` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-参数:
 
-* src: const void *
+<p style="height: 10px;margin:0px"></p>
 
-* header: lv_image_header_t *
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-string
+### <span class='member-header property'></span> 属性 scaleY
 
-该函数的返回值是一个字符串常量: [lv_result_t](../const/#lv_result_t)
+类型: number
 
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_image_get_scale_y`, `lv_image_set_scale_y` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：decoderOpen
 
-> 该方法是对 LVGL C API `lv_image_decoder_open()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: decoderOpen (dsc:lv_image_decoder_dsc_t *, src:const void *, args:const lv_image_decoder_args_t *)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 blendMode
 
-* dsc: lv_image_decoder_dsc_t *
+类型: LV-CONST
 
-* src: const void *
+访问: 可读, 可写
 
-* args: const lv_image_decoder_args_t *
+> 该属性是对 LVGL C API `lv_image_get_blend_mode`, `lv_image_set_blend_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-string
 
-该函数的返回值是一个字符串常量: [lv_result_t](../const/#lv_result_t)
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 antialias
 
-### 方法：decoderGetArea
+类型: number
 
-> 该方法是对 LVGL C API `lv_image_decoder_get_area()` 的包装
+访问: 可读, 可写
 
-原型: decoderGetArea (dsc:lv_image_decoder_dsc_t *, full_area:const lv_area_t *, decoded_area:lv_area_t *)
+> 该属性是对 LVGL C API `lv_image_get_antialias`, `lv_image_set_antialias` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-参数:
 
-* dsc: lv_image_decoder_dsc_t *
+<p style="height: 10px;margin:0px"></p>
 
-* full_area: const lv_area_t *
+<p style="height: 10px;margin:0px"></p>
 
-* decoded_area: lv_area_t *
+### <span class='member-header property'></span> 属性 align
 
-返回值:
-string
+类型: LV-CONST
 
-该函数的返回值是一个字符串常量: [lv_result_t](../const/#lv_result_t)
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_image_get_align`, `lv_image_set_align` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：decoderClose
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_image_decoder_close()` 的包装
+## 类方法
 
-原型: decoderClose (dsc:lv_image_decoder_dsc_t *)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header function'></span> 方法  setPivot
 
-* dsc: lv_image_decoder_dsc_t *
 
-返回值:
-undefined
+原型:  setPivot
+ ()
 
+> 该方法是对 LVGL C API `lv_image_set_pivot` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+#### 返回值:
 
-### 方法：decoderDelete
+`undefined`
 
-> 该方法是对 LVGL C API `lv_image_decoder_delete()` 的包装
-
-原型: decoderDelete (decoder:lv_image_decoder_t *)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-返回值:
-undefined
-
-
-
-### 方法：decoderGetNext
-
-> 该方法是对 LVGL C API `lv_image_decoder_get_next()` 的包装
-
-原型: decoderGetNext (decoder:lv_image_decoder_t *)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-返回值:
-lv_image_decoder_t *
-
-
-
-### 方法：decoderSetInfoCb
-
-> 该方法是对 LVGL C API `lv_image_decoder_set_info_cb()` 的包装
-
-原型: decoderSetInfoCb (decoder:lv_image_decoder_t *, info_cb:lv_image_decoder_info_f_t)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* info_cb: lv_image_decoder_info_f_t
-
-返回值:
-undefined
-
-
-
-### 方法：decoderSetOpenCb
-
-> 该方法是对 LVGL C API `lv_image_decoder_set_open_cb()` 的包装
-
-原型: decoderSetOpenCb (decoder:lv_image_decoder_t *, open_cb:lv_image_decoder_open_f_t)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* open_cb: lv_image_decoder_open_f_t
-
-返回值:
-undefined
-
-
-
-### 方法：decoderSetGetAreaCb
-
-> 该方法是对 LVGL C API `lv_image_decoder_set_get_area_cb()` 的包装
-
-原型: decoderSetGetAreaCb (decoder:lv_image_decoder_t *, read_line_cb:lv_image_decoder_get_area_cb_t)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* read_line_cb: lv_image_decoder_get_area_cb_t
-
-返回值:
-undefined
-
-
-
-### 方法：decoderSetCloseCb
-
-> 该方法是对 LVGL C API `lv_image_decoder_set_close_cb()` 的包装
-
-原型: decoderSetCloseCb (decoder:lv_image_decoder_t *, close_cb:lv_image_decoder_close_f_t)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* close_cb: lv_image_decoder_close_f_t
-
-返回值:
-undefined
-
-
-
-### 方法：decoderSetCacheFreeCb
-
-> 该方法是对 LVGL C API `lv_image_decoder_set_cache_free_cb()` 的包装
-
-原型: decoderSetCacheFreeCb (decoder:lv_image_decoder_t *, cache_free_cb:lv_cache_free_cb_t)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* cache_free_cb: lv_cache_free_cb_t
-
-返回值:
-undefined
-
-
-
-### 方法：decoderAddToCache
-
-> 该方法是对 LVGL C API `lv_image_decoder_add_to_cache()` 的包装
-
-原型: decoderAddToCache (decoder:lv_image_decoder_t *, search_key:lv_image_cache_data_t *, decoded:const lv_draw_buf_t *, user_data:undefined)
-
-参数:
-
-* decoder: lv_image_decoder_t *
-
-* search_key: lv_image_cache_data_t *
-
-* decoded: const lv_draw_buf_t *
-
-* user_data: undefined
-
-返回值:
-lv_cache_entry_t *
-
-
-
-### 方法：decoderPostProcess
-
-> 该方法是对 LVGL C API `lv_image_decoder_post_process()` 的包装
-
-原型: decoderPostProcess (dsc:lv_image_decoder_dsc_t *, decoded:lv_draw_buf_t *)
-
-参数:
-
-* dsc: lv_image_decoder_dsc_t *
-
-* decoded: lv_draw_buf_t *
-
-返回值:
-lv_draw_buf_t *
-
-
-
-### 方法：cacheDrop
-
-> 该方法是对 LVGL C API `lv_image_cache_drop()` 的包装
-
-原型: cacheDrop (src:const void *)
-
-参数:
-
-* src: const void *
-
-返回值:
-undefined
-
-
-
-### 方法：setPivot
-
-> 该方法是对 LVGL C API `lv_image_set_pivot()` 的包装
-
-原型: setPivot (obj:[Obj](../Obj), x:number, y:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* x: number
-
-* y: number
-
-返回值:
-undefined
-
-
-
-### 方法：getPivot
-
-> 该方法是对 LVGL C API `lv_image_get_pivot()` 的包装
-
-原型: getPivot (obj:[Obj](../Obj), pivot:lv_point_t *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* pivot: lv_point_t *
-
-返回值:
-undefined
-
+<p style="height: 10px;margin:0px"></p>
 

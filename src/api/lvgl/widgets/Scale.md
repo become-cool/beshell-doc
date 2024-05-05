@@ -1,119 +1,183 @@
-`Scale` 类是对 LVGL 的 Widget `lv_scale_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Scale
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 mode
 
+类型: LV-CONST
 
-### 方法：setRange
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_scale_set_range()` 的包装
-
-原型: setRange (obj:[Obj](../Obj), min:number, max:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* min: number
-
-* max: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_scale_get_mode`, `lv_scale_set_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setLineNeedleValue
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_scale_set_line_needle_value()` 的包装
+### <span class='member-header property'></span> 属性 totalTickCount
 
-原型: setLineNeedleValue (obj:[Obj](../Obj), needle_line:[Obj](../Obj), needle_length:number, value:number)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* needle_line: [Obj](../Obj)
-
-* needle_length: number
-
-* value: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_scale_get_total_tick_count`, `lv_scale_set_total_tick_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setImageNeedleValue
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_scale_set_image_needle_value()` 的包装
+### <span class='member-header property'></span> 属性 majorTickEvery
 
-原型: setImageNeedleValue (obj:[Obj](../Obj), needle_img:[Obj](../Obj), value:number)
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-* needle_img: [Obj](../Obj)
-
-* value: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_scale_get_major_tick_every`, `lv_scale_set_major_tick_every` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addSection
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_scale_add_section()` 的包装
+### <span class='member-header property'></span> 属性 labelShow
 
-原型: addSection (obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
-
-返回值:
-lv_scale_section_t *
-
+> 该属性是对 LVGL C API `lv_scale_get_label_show`, `lv_scale_set_label_show` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：sectionSetRange
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_scale_section_set_range()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: sectionSetRange (section:lv_scale_section_t *, minor_range:number, major_range:number)
+### <span class='member-header property'></span> 属性 angleRange
 
-参数:
+类型: number
 
-* section: lv_scale_section_t *
+访问: 可读, 可写
 
-* minor_range: number
-
-* major_range: number
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_scale_get_angle_range`, `lv_scale_set_angle_range` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：sectionSetStyle
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_scale_section_set_style()` 的包装
+### <span class='member-header property'></span> 属性 rotation
 
-原型: sectionSetStyle (section:lv_scale_section_t *, part:number, section_part_style:[Style](../../style#lv_style_t))
+类型: number
 
-参数:
+访问: 只写
 
-* section: lv_scale_section_t *
+> 该属性是对 LVGL C API `lv_scale_set_rotation` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* part: number
 
-* section_part_style: [Style](../../style#lv_style_t)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 postDraw
+
+类型: number
+
+访问: 只写
+
+> 该属性是对 LVGL C API `lv_scale_set_post_draw` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 rangeMinValue
+
+类型: number
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_scale_get_range_min_value` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 rangeMaxValue
+
+类型: number
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_scale_get_range_max_value` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+## 类方法
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setRange
+
+
+原型:  setRange
+ ()
+
+> 该方法是对 LVGL C API `lv_scale_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setLineNeedleValue
+
+
+原型:  setLineNeedleValue
+ ()
+
+> 该方法是对 LVGL C API `lv_scale_set_line_needle_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setImageNeedleValue
+
+
+原型:  setImageNeedleValue
+ ()
+
+> 该方法是对 LVGL C API `lv_scale_set_image_needle_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

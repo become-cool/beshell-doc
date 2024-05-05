@@ -1,161 +1,379 @@
-`TextArea` 类是对 LVGL 的 Widget `lv_textarea_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: TextArea
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 text
 
+类型: 
 
-### 方法：addChar
+访问: 只写
 
-> 该方法是对 LVGL C API `lv_textarea_add_char()` 的包装
+> 该属性是对 LVGL C API `lv_textarea_set_text` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: addChar (obj:[Obj](../Obj), c:number)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* c: number
+### <span class='member-header property'></span> 属性 placeholderText
 
-返回值:
-undefined
+类型: 
 
+访问: 只写
 
+> 该属性是对 LVGL C API `lv_textarea_set_placeholder_text` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：addText
 
-> 该方法是对 LVGL C API `lv_textarea_add_text()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: addText (obj:[Obj](../Obj), txt:const char *)
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 cursorPos
 
-* obj: [Obj](../Obj)
+类型: number
 
-* txt: const char *
+访问: 可读, 可写
 
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_textarea_get_cursor_pos`, `lv_textarea_set_cursor_pos` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：deleteChar
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_textarea_delete_char()` 的包装
+### <span class='member-header property'></span> 属性 cursorClickPos
 
-原型: deleteChar (obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_textarea_get_cursor_click_pos`, `lv_textarea_set_cursor_click_pos` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：deleteCharForward
+### <span class='member-header property'></span> 属性 passwordMode
 
-> 该方法是对 LVGL C API `lv_textarea_delete_char_forward()` 的包装
+类型: number
 
-原型: deleteCharForward (obj:[Obj](../Obj))
+访问: 可读, 可写
 
-参数:
+> 该属性是对 LVGL C API `lv_textarea_get_password_mode`, `lv_textarea_set_password_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* obj: [Obj](../Obj)
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 passwordBullet
 
-### 方法：textIsSelected
+类型: 
 
-> 该方法是对 LVGL C API `lv_textarea_text_is_selected()` 的包装
+访问: 只写
 
-原型: textIsSelected (obj:const lv_obj_t *)
+> 该属性是对 LVGL C API `lv_textarea_set_password_bullet` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-参数:
 
-* obj: const lv_obj_t *
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-bool
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 oneLine
 
+类型: number
 
-### 方法：clearSelection
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_textarea_clear_selection()` 的包装
+> 该属性是对 LVGL C API `lv_textarea_get_one_line`, `lv_textarea_set_one_line` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: clearSelection (obj:[Obj](../Obj))
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+### <span class='member-header property'></span> 属性 acceptedChars
 
+类型: 
 
+访问: 只写
 
-### 方法：cursorRight
+> 该属性是对 LVGL C API `lv_textarea_set_accepted_chars` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_right()` 的包装
 
-原型: cursorRight (obj:[Obj](../Obj))
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+### <span class='member-header property'></span> 属性 maxLength
 
-返回值:
-undefined
+类型: number
 
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_textarea_get_max_length`, `lv_textarea_set_max_length` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：cursorLeft
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_left()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: cursorLeft (obj:[Obj](../Obj))
+<p style="height: 10px;margin:0px"></p>
 
-参数:
+### <span class='member-header property'></span> 属性 insertReplace
 
-* obj: [Obj](../Obj)
+类型: 
 
-返回值:
-undefined
+访问: 只写
 
+> 该属性是对 LVGL C API `lv_textarea_set_insert_replace` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：cursorDown
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_down()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: cursorDown (obj:[Obj](../Obj))
+### <span class='member-header property'></span> 属性 textSelection
 
-参数:
+类型: number
 
-* obj: [Obj](../Obj)
+访问: 可读, 可写
 
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_textarea_get_text_selection`, `lv_textarea_set_text_selection` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：cursorUp
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_up()` 的包装
+### <span class='member-header property'></span> 属性 passwordShowTime
 
-原型: cursorUp (obj:[Obj](../Obj))
+类型: number
 
-参数:
+访问: 可读, 可写
 
-* obj: [Obj](../Obj)
+> 该属性是对 LVGL C API `lv_textarea_get_password_show_time`, `lv_textarea_set_password_show_time` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-undefined
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 align
+
+类型: number
+
+访问: 只写
+
+> 该属性是对 LVGL C API `lv_textarea_set_align` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 label
+
+类型: [obj](obj.html)
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_textarea_get_label` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header property'></span> 属性 currentChar
+
+类型: number
+
+访问: 只读
+
+> 该属性是对 LVGL C API `lv_textarea_get_current_char` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+
+<p style="height: 10px;margin:0px"></p>
+
+## 类方法
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  addChar
+
+
+原型:  addChar
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_add_char` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  addText
+
+
+原型:  addText
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_add_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  deleteChar
+
+
+原型:  deleteChar
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_delete_char` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  deleteCharForward
+
+
+原型:  deleteCharForward
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_delete_char_forward` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  textIsSelected
+
+
+原型:  textIsSelected
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_text_is_selected` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  clearSelection
+
+
+原型:  clearSelection
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_clear_selection` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  cursorRight
+
+
+原型:  cursorRight
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_cursor_right` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  cursorLeft
+
+
+原型:  cursorLeft
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_cursor_left` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  cursorDown
+
+
+原型:  cursorDown
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_cursor_down` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  cursorUp
+
+
+原型:  cursorUp
+ ()
+
+> 该方法是对 LVGL C API `lv_textarea_cursor_up` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

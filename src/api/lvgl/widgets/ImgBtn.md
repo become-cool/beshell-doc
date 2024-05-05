@@ -1,81 +1,21 @@
-`ImgBtn` 类是对 LVGL 的 Widget `lv_imagebutton_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: ImgBtn
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 state
 
+类型: LV-CONST
 
-### 方法：setSrc
+访问: 只写
 
-> 该方法是对 LVGL C API `lv_imagebutton_set_src()` 的包装
-
-原型: setSrc (imagebutton:[Obj](../Obj), state:string, src_left:const void *, src_mid:const void *, src_right:const void *)
-
-参数:
-
-* imagebutton: [Obj](../Obj)
-
-* state: [lv_imagebutton_state_t](../const/#lv_imagebutton_state_t)
-
-* src_left: const void *
-
-* src_mid: const void *
-
-* src_right: const void *
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_imagebutton_set_state` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-
-### 方法：getSrcLeft
-
-> 该方法是对 LVGL C API `lv_imagebutton_get_src_left()` 的包装
-
-原型: getSrcLeft (imagebutton:[Obj](../Obj), state:string)
-
-参数:
-
-* imagebutton: [Obj](../Obj)
-
-* state: [lv_imagebutton_state_t](../const/#lv_imagebutton_state_t)
-
-返回值:
-const void *
-
-
-
-### 方法：getSrcMiddle
-
-> 该方法是对 LVGL C API `lv_imagebutton_get_src_middle()` 的包装
-
-原型: getSrcMiddle (imagebutton:[Obj](../Obj), state:string)
-
-参数:
-
-* imagebutton: [Obj](../Obj)
-
-* state: [lv_imagebutton_state_t](../const/#lv_imagebutton_state_t)
-
-返回值:
-const void *
-
-
-
-### 方法：getSrcRight
-
-> 该方法是对 LVGL C API `lv_imagebutton_get_src_right()` 的包装
-
-原型: getSrcRight (imagebutton:[Obj](../Obj), state:string)
-
-参数:
-
-* imagebutton: [Obj](../Obj)
-
-* state: [lv_imagebutton_state_t](../const/#lv_imagebutton_state_t)
-
-返回值:
-const void *
-
+<p style="height: 10px;margin:0px"></p>
 

@@ -1,79 +1,39 @@
-`List` 类是对 LVGL 的 Widget `lv_list_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: List
+## 类方法
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
-
-
-### 方法：addText
-
-> 该方法是对 LVGL C API `lv_list_add_text()` 的包装
-
-原型: addText (list:[Obj](../Obj), txt:const char *)
-
-参数:
-
-* list: [Obj](../Obj)
-
-* txt: const char *
-
-返回值:
-[Obj](../Obj)
+### <span class='member-header function'></span> 方法  addText
 
 
+原型:  addText
+ ()
 
-### 方法：addButton
+> 该方法是对 LVGL C API `lv_list_add_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_list_add_button()` 的包装
+#### 返回值:
 
-原型: addButton (list:[Obj](../Obj), icon:const void *, txt:const char *)
+`undefined`
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* list: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* icon: const void *
-
-* txt: const char *
-
-返回值:
-[Obj](../Obj)
+### <span class='member-header function'></span> 方法  setButtonText
 
 
+原型:  setButtonText
+ ()
 
-### 方法：getButtonText
+> 该方法是对 LVGL C API `lv_list_set_button_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_list_get_button_text()` 的包装
+#### 返回值:
 
-原型: getButtonText (list:[Obj](../Obj), btn:[Obj](../Obj))
+`undefined`
 
-参数:
-
-* list: [Obj](../Obj)
-
-* btn: [Obj](../Obj)
-
-返回值:
-const char *
-
-
-
-### 方法：setButtonText
-
-> 该方法是对 LVGL C API `lv_list_set_button_text()` 的包装
-
-原型: setButtonText (list:[Obj](../Obj), btn:[Obj](../Obj), txt:const char *)
-
-参数:
-
-* list: [Obj](../Obj)
-
-* btn: [Obj](../Obj)
-
-* txt: const char *
-
-返回值:
-undefined
-
+<p style="height: 10px;margin:0px"></p>
 

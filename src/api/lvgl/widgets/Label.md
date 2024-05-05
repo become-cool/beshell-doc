@@ -1,138 +1,111 @@
-`Label` 类是对 LVGL 的 Widget `lv_label_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Label
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 text
 
+类型: number
 
-### 方法：bindText
+访问: 可读, 可写
 
-> 该方法是对 LVGL C API `lv_label_bind_text()` 的包装
+> 该属性是对 LVGL C API `lv_label_get_text`, `lv_label_set_text` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: bindText (obj:[Obj](../Obj), subject:lv_subject_t *, fmt:const char *)
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-* subject: lv_subject_t *
+### <span class='member-header property'></span> 属性 textStatic
 
-* fmt: const char *
+类型: 
 
-返回值:
-lv_observer_t *
+访问: 只写
 
+> 该属性是对 LVGL C API `lv_label_set_text_static` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
-### 方法：setTextFmt
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_label_set_text_fmt()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: setTextFmt (obj:[Obj](../Obj), fmt:const char *, ...:)
+### <span class='member-header property'></span> 属性 longMode
 
-参数:
+类型: number
 
-* obj: [Obj](../Obj)
+访问: 可读, 可写
 
-* fmt: const char *
+> 该属性是对 LVGL C API `lv_label_get_long_mode`, `lv_label_set_long_mode` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* ...: 
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 textSelectionStart
 
-### 方法：getLetterPos
+类型: number
 
-> 该方法是对 LVGL C API `lv_label_get_letter_pos()` 的包装
+访问: 可读, 可写
 
-原型: getLetterPos (obj:const lv_obj_t *, char_id:number, pos:lv_point_t *)
+> 该属性是对 LVGL C API `lv_label_get_text_selection_start`, `lv_label_set_text_selection_start` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-参数:
 
-* obj: const lv_obj_t *
+<p style="height: 10px;margin:0px"></p>
 
-* char_id: number
+<p style="height: 10px;margin:0px"></p>
 
-* pos: lv_point_t *
+### <span class='member-header property'></span> 属性 textSelectionEnd
 
-返回值:
-undefined
+类型: number
 
+访问: 可读, 可写
 
+> 该属性是对 LVGL C API `lv_label_get_text_selection_end`, `lv_label_set_text_selection_end` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-### 方法：getLetterOn
 
-> 该方法是对 LVGL C API `lv_label_get_letter_on()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: getLetterOn (obj:const lv_obj_t *, pos_in:lv_point_t *, bidi:bool)
+## 类方法
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* obj: const lv_obj_t *
+### <span class='member-header function'></span> 方法  insText
 
-* pos_in: lv_point_t *
 
-* bidi: bool
+原型:  insText
+ ()
 
-返回值:
-number
+> 该方法是对 LVGL C API `lv_label_ins_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
+#### 返回值:
 
+`undefined`
 
-### 方法：isCharUnderPos
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_label_is_char_under_pos()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: isCharUnderPos (obj:const lv_obj_t *, pos:lv_point_t *)
+### <span class='member-header function'></span> 方法  cutText
 
-参数:
 
-* obj: const lv_obj_t *
+原型:  cutText
+ ()
 
-* pos: lv_point_t *
+> 该方法是对 LVGL C API `lv_label_cut_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-返回值:
-bool
+#### 返回值:
 
+`undefined`
 
-
-### 方法：insText
-
-> 该方法是对 LVGL C API `lv_label_ins_text()` 的包装
-
-原型: insText (obj:[Obj](../Obj), pos:number, txt:const char *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* pos: number
-
-* txt: const char *
-
-返回值:
-undefined
-
-
-
-### 方法：cutText
-
-> 该方法是对 LVGL C API `lv_label_cut_text()` 的包装
-
-原型: cutText (obj:[Obj](../Obj), pos:number, cnt:number)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* pos: number
-
-* cnt: number
-
-返回值:
-undefined
-
+<p style="height: 10px;margin:0px"></p>
 

@@ -7,6 +7,7 @@ async function parseModuleSource(path, moduleConfig) {
         name: moduleConfig.title ,
         desc: [] ,
         funcs: [] ,
+        props: [] ,
         global : null 
     }
 
@@ -21,6 +22,11 @@ async function parseModuleSource(path, moduleConfig) {
 
             if(doc["@function"] || doc["@method"]) {
                 moduleDoc.funcs.push(doc)
+                continue
+            }
+
+            if(doc["@property"]) {
+                moduleDoc.props.push(doc)
                 continue
             }
 

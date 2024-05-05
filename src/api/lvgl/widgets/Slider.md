@@ -1,39 +1,23 @@
-`Slider` 类是对 LVGL 的 Widget `lv_slider_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Bar**
+# 类: Slider
+## 类方法
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
-
-
-### 方法：bindValue
-
-> 该方法是对 LVGL C API `lv_slider_bind_value()` 的包装
-
-原型: bindValue (obj:[Obj](../Obj), subject:lv_subject_t *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* subject: lv_subject_t *
-
-返回值:
-lv_observer_t *
+### <span class='member-header function'></span> 方法  isDragged
 
 
+原型:  isDragged
+ ()
 
-### 方法：isDragged
+> 该方法是对 LVGL C API `lv_slider_is_dragged` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_slider_is_dragged()` 的包装
+#### 返回值:
 
-原型: isDragged (obj:const lv_obj_t *)
+`undefined`
 
-参数:
-
-* obj: const lv_obj_t *
-
-返回值:
-bool
-
+<p style="height: 10px;margin:0px"></p>
 

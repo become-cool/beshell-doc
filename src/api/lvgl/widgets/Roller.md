@@ -1,81 +1,99 @@
-`Roller` 类是对 LVGL 的 Widget `lv_roller_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: Roller
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 visibleRowCount
 
+类型: number
 
-### 方法：bindValue
+访问: 只写
 
-> 该方法是对 LVGL C API `lv_roller_bind_value()` 的包装
-
-原型: bindValue (obj:[Obj](../Obj), subject:lv_subject_t *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* subject: lv_subject_t *
-
-返回值:
-lv_observer_t *
+> 该属性是对 LVGL C API `lv_roller_set_visible_row_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setOptions
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_roller_set_options()` 的包装
+### <span class='member-header property'></span> 属性 selected
 
-原型: setOptions (obj:[Obj](../Obj), options:const char *, mode:string)
+类型: number
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* options: const char *
-
-* mode: [lv_roller_mode_t](../const/#lv_roller_mode_t)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_roller_get_selected` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：setSelected
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_roller_set_selected()` 的包装
+### <span class='member-header property'></span> 属性 optionCount
 
-原型: setSelected (obj:[Obj](../Obj), sel_opt:number, anim:string)
+类型: number
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* sel_opt: number
-
-* anim: [lv_anim_enable_t](../const/#lv_anim_enable_t)
-
-返回值:
-undefined
+> 该属性是对 LVGL C API `lv_roller_get_option_count` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：getSelectedStr
+## 类方法
 
-> 该方法是对 LVGL C API `lv_roller_get_selected_str()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: getSelectedStr (obj:const lv_obj_t *, buf:char *, buf_size:number)
+### <span class='member-header function'></span> 方法  setOptions
 
-参数:
 
-* obj: const lv_obj_t *
+原型:  setOptions
+ ()
 
-* buf: char *
+> 该方法是对 LVGL C API `lv_roller_set_options` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-* buf_size: number
+#### 返回值:
 
-返回值:
-undefined
+`undefined`
 
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  setSelected
+
+
+原型:  setSelected
+ ()
+
+> 该方法是对 LVGL C API `lv_roller_set_selected` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  getSelectedStr
+
+
+原型:  getSelectedStr
+ ()
+
+> 该方法是对 LVGL C API `lv_roller_get_selected_str` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 

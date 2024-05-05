@@ -1,120 +1,161 @@
-`MsgBox` 类是对 LVGL 的 Widget `lv_msgbox_t` 的包装
+---
+headerDepth: 2
+---
 
-**继承自: Obj**
+# 类: MsgBox
+## 类属性
 
-## 类方法:
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header property'></span> 属性 header
 
+类型: [obj](obj.html)
 
-### 方法：addTitle
+访问: 只读
 
-> 该方法是对 LVGL C API `lv_msgbox_add_title()` 的包装
-
-原型: addTitle (obj:[Obj](../Obj), title:const char *)
-
-参数:
-
-* obj: [Obj](../Obj)
-
-* title: const char *
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_msgbox_get_header` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addHeaderButton
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_msgbox_add_header_button()` 的包装
+### <span class='member-header property'></span> 属性 footer
 
-原型: addHeaderButton (obj:[Obj](../Obj), icon:const void *)
+类型: [obj](obj.html)
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* icon: const void *
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_msgbox_get_footer` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addText
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_msgbox_add_text()` 的包装
+### <span class='member-header property'></span> 属性 content
 
-原型: addText (obj:[Obj](../Obj), text:const char *)
+类型: [obj](obj.html)
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* text: const char *
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_msgbox_get_content` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addFooterButton
+<p style="height: 10px;margin:0px"></p>
 
-> 该方法是对 LVGL C API `lv_msgbox_add_footer_button()` 的包装
+### <span class='member-header property'></span> 属性 title
 
-原型: addFooterButton (obj:[Obj](../Obj), text:const char *)
+类型: [obj](obj.html)
 
-参数:
+访问: 只读
 
-* obj: [Obj](../Obj)
-
-* text: const char *
-
-返回值:
-[Obj](../Obj)
+> 该属性是对 LVGL C API `lv_msgbox_get_title` 的封装，
+> 具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 
+<p style="height: 10px;margin:0px"></p>
 
-### 方法：addCloseButton
+## 类方法
 
-> 该方法是对 LVGL C API `lv_msgbox_add_close_button()` 的包装
+<p style="height: 10px;margin:0px"></p>
 
-原型: addCloseButton (obj:[Obj](../Obj))
-
-参数:
-
-* obj: [Obj](../Obj)
-
-返回值:
-[Obj](../Obj)
+### <span class='member-header function'></span> 方法  addTitle
 
 
+原型:  addTitle
+ ()
 
-### 方法：close
+> 该方法是对 LVGL C API `lv_msgbox_add_title` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-> 该方法是对 LVGL C API `lv_msgbox_close()` 的包装
+#### 返回值:
 
-原型: close (mbox:[Obj](../Obj))
+`undefined`
 
-参数:
+<p style="height: 10px;margin:0px"></p>
 
-* mbox: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
-
+### <span class='member-header function'></span> 方法  addText
 
 
-### 方法：closeAsync
+原型:  addText
+ ()
 
-> 该方法是对 LVGL C API `lv_msgbox_close_async()` 的包装
+> 该方法是对 LVGL C API `lv_msgbox_add_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
-原型: closeAsync (mbox:[Obj](../Obj))
+#### 返回值:
 
-参数:
+`undefined`
 
-* mbox: [Obj](../Obj)
+<p style="height: 10px;margin:0px"></p>
 
-返回值:
-undefined
+<p style="height: 10px;margin:0px"></p>
 
+### <span class='member-header function'></span> 方法  addFooterButton
+
+
+原型:  addFooterButton
+ ()
+
+> 该方法是对 LVGL C API `lv_msgbox_add_footer_button` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  addCloseButton
+
+
+原型:  addCloseButton
+ ()
+
+> 该方法是对 LVGL C API `lv_msgbox_add_close_button` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  close
+
+
+原型:  close
+ ()
+
+> 该方法是对 LVGL C API `lv_msgbox_close` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 方法  closeAsync
+
+
+原型:  closeAsync
+ ()
+
+> 该方法是对 LVGL C API `lv_msgbox_close_async` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+
+#### 返回值:
+
+`undefined`
+
+<p style="height: 10px;margin:0px"></p>
 
