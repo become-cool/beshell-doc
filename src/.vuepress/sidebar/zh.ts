@@ -103,8 +103,8 @@ export const zhSidebar = sidebar({
               link: "styles",
             } ,
             {
-              text: "事件",
-              link: "events",
+              text: "动画",
+              link: "animation",
             } ,
           ]
         } ,

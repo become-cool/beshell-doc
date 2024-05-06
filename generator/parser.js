@@ -11,31 +11,38 @@ async function parseModuleSource(path, moduleConfig) {
         global : null 
     }
 
+    if( !Array.isArray(path) ) {
+        path = [path]
+    }
+
     try{
-        var json = await javadoc.generate({
-            include: [path],
-            exclude: ["**/node_modules/**"],
-            format: "json",
-        })
+        for(let p of path) {
+            var json = await javadoc.generate({
+                include: [p],
+                output: "./output.json",
+                exclude: ["**/node_modules/**"],
+                format: "json",
+            })
 
-        for(let doc of json.success[0]) {
+            for(let doc of json.success[0]) {
 
-            if(doc["@function"] || doc["@method"]) {
-                moduleDoc.funcs.push(doc)
-                continue
-            }
-
-            if(doc["@property"]) {
-                moduleDoc.props.push(doc)
-                continue
-            }
-
-            if(doc["@module"] || doc["@class"]) {
-                if(!!doc["@global"] && doc["@global"].length>0) {
-                    moduleDoc.global = doc["@global"][0].trim()
+                if(doc["@function"] || doc["@method"]) {
+                    moduleDoc.funcs.push(doc)
+                    continue
                 }
-                moduleDoc.desc.push(... doc._||[])
-                continue
+
+                if(doc["@property"]) {
+                    moduleDoc.props.push(doc)
+                    continue
+                }
+
+                if(doc["@module"] || doc["@class"]) {
+                    if(!!doc["@global"] && doc["@global"].length>0) {
+                        moduleDoc.global = doc["@global"][0].trim()
+                    }
+                    moduleDoc.desc.push(... doc._||[])
+                    continue
+                }
             }
         }
 

@@ -68,6 +68,11 @@ function scanLvWidgets(doc, tpl) {
 }
 scanLvWidgets()
 
+cpp_sources["Obj"].src = [
+    cpp_sources["Obj"].src ,
+    path_beshell+"/src/lv/widget/Obj.style.cpp" ,
+]
+
 
 
 async function main() {

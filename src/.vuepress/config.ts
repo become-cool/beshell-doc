@@ -25,23 +25,23 @@ const config = defineUserConfig({
 
   theme,
 
-  markdown: {
-    anchor: {
-      // permalink: true, 
-      // permalinkBefore: true, 
-      permalinkSymbol: '🔗', 
-      // renderPermalink: function (slug, anchorOpts, state, idx) {
-      //   console.log(slug)
-      //   return slug
-      // } ,
-      // callback(token, output) {
-      //   console.log(token.attrs[0][1],output)
-      //   token.attrs[0][1] = "yyyyyyyyyy"
+  // markdown: {
+  //   anchor: {
+  //     // permalink: true, 
+  //     // permalinkBefore: true, 
+  //     permalinkSymbol: '🔗', 
+  //     // renderPermalink: function (slug, anchorOpts, state, idx) {
+  //     //   console.log(slug)
+  //     //   return slug
+  //     // } ,
+  //     // callback(token, output) {
+  //     //   console.log(token.attrs[0][1],output)
+  //     //   token.attrs[0][1] = "yyyyyyyyyy"
   
-      //   output.slug = "xxxxxxxxxx"
-      // }
-    },
-  },
+  //     //   output.slug = "xxxxxxxxxx"
+  //     // }
+  //   },
+  // },
 
   
 

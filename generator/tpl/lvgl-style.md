@@ -1,43 +1,28 @@
 
+# 样式
 
-`beapi.lvgl.Style` 类是对 LVGL `lv_style_t` 的封装，一个 Style 对象可以通过`set(name, value)` 设置多个样式的属性值。
+调用 Obj.style() 和 Obj.setStyle() 方法来获取和设置样式。
 
+## 示例
 
+```javascript
+import * as lv from 'lv'
 
-`beapi.lvgl.Obj` 和它的子类通过 `addStyle(style)` 添加 `Style` 对象。但是更简便的方式是使用 `Obj.setStyle(name,value)` 直接设置样式值。
+let obj = lv.Obj( lv.screen() )
 
+// 对象类型参数，设置多个样式
+obj.setStyle({
+    "border-width": 1 ,                 // 边线宽
+    "border-color": lv.color(255,0,0) , // 边线颜色
+    "border-opa": 100255 ,              // 边线不透明度
+})
+// 设置单个样式
+obj.setStyle("width","100%")
 
-
-## 方法
-
-### set(name: string, value:any): void
-
-设置样式的属性值
-
-
-
-### get(name: string): any
-
-返回样式的属性值
-
-
-
-### props(): string[]
-
-返回所有已经设置的属性名称
+console.log( "height: ", obj.style("height") )
+```
 
 
-
-### setPadAll(pad:number): void
-
-同时在所有方向上设置 pad ，请参考 lvgl `lv_style_set_pad_all`
-
-
-
-
-
-## 属性值
-
-
+## 样式属性
 
 ${ALL STYLES}

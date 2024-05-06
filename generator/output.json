@@ -1,0 +1,50 @@
+{
+  "success": [
+    [
+      {
+        "_": [
+          "返回样式的值\n\n如果样式不存在，抛出异常\n\n[可用的样式参考](style#样式属性)\n"
+        ],
+        "@module": [
+          " lv"
+        ],
+        "@class": [
+          " Obj"
+        ],
+        "@method": [
+          " style"
+        ],
+        "@param": [
+          " styleName:string 样式名称"
+        ],
+        "@return": [
+          " number|string"
+        ],
+        "file": "/mnt/d/project/become/beshell/beshell-v0.3/src/lv/widget/Obj.style.cpp"
+      },
+      {
+        "_": [
+          "设置样式\n\n如果样式不存在，抛出异常。\n\n[可用的样式参考](style#样式属性)\n\n```javascript\nimport * as lv from 'lv'\n\nlet obj = lv.Obj( lv.screen() )\n\n// 对象类型参数，设置多个样式\nobj.setStyle({\n    \"border-width\": 1 ,                 // 边线宽\n    \"border-color\": lv.color(255,0,0) , // 边线颜色\n    \"border-opa\": 100255 ,              // 边线不透明度\n})\n// 设置单个样式\nobj.setStyle(\"width\",\"100%\")\n```\n"
+        ],
+        "@module": [
+          " lv"
+        ],
+        "@class": [
+          " Obj"
+        ],
+        "@method": [
+          " setStyle"
+        ],
+        "@param": [
+          " style:string|object 样式名称或多个样式的对象",
+          " value:number|string 样式值，当第一个参数是对象的时候，此参数无效"
+        ],
+        "@return": [
+          " number|string"
+        ],
+        "file": "/mnt/d/project/become/beshell/beshell-v0.3/src/lv/widget/Obj.style.cpp"
+      }
+    ]
+  ],
+  "error": []
+}

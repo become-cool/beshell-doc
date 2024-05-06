@@ -4,7 +4,7 @@
 
 ### 常量类型 lv_result_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_result_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_result_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -22,7 +22,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_result_t 映射为 JS 字符串，�
 
 ### 常量类型 lv_anim_enable_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_anim_enable_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_anim_enable_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -40,7 +40,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_anim_enable_t 映射为 JS 字符�
 
 ### 常量类型 lv_rb_color_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_rb_color_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_rb_color_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -58,7 +58,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_rb_color_t 映射为 JS 字符串�
 
 ### 常量类型 lv_align_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_align_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_align_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -156,7 +156,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_align_t 映射为 JS 字符串，�
 
 ### 常量类型 lv_dir_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_dir_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_dir_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -198,7 +198,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_dir_t 映射为 JS 字符串，在�
 
 ### 常量类型 lv_opa_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_opa_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_opa_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -260,7 +260,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_opa_t 映射为 JS 字符串，在�
 
 ### 常量类型 lv_color_format_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_color_format_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_color_format_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -386,7 +386,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_color_format_t 映射为 JS 字符�
 
 ### 常量类型 lv_palette_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_palette_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_palette_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -480,7 +480,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_palette_t 映射为 JS 字符串，
 
 ### 常量类型 lv_image_flags_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_image_flags_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_image_flags_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -542,7 +542,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_image_flags_t 映射为 JS 字符�
 
 ### 常量类型 lv_image_compress_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_image_compress_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_image_compress_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -564,7 +564,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_image_compress_t 映射为 JS 字�
 
 ### 常量类型 lv_thread_prio_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_thread_prio_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_thread_prio_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -594,7 +594,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_thread_prio_t 映射为 JS 字符�
 
 ### 常量类型 lv_font_subpx_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_font_subpx_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_font_subpx_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -620,7 +620,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_font_subpx_t 映射为 JS 字符串
 
 ### 常量类型 lv_font_kerning_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_font_kerning_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_font_kerning_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -638,7 +638,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_font_kerning_t 映射为 JS 字符�
 
 ### 常量类型 lv_text_flag_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_text_flag_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_text_flag_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -660,7 +660,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_text_flag_t 映射为 JS 字符串�
 
 ### 常量类型 lv_text_align_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_text_align_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_text_align_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -686,7 +686,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_text_align_t 映射为 JS 字符串
 
 ### 常量类型 lv_base_dir_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_base_dir_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_base_dir_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -716,7 +716,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_base_dir_t 映射为 JS 字符串�
 
 ### 常量类型 lv_layout_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_layout_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_layout_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -742,7 +742,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_layout_t 映射为 JS 字符串，�
 
 ### 常量类型 lv_flex_align_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_flex_align_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_flex_align_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -776,7 +776,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_flex_align_t 映射为 JS 字符串
 
 ### 常量类型 lv_flex_flow_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_flex_flow_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_flex_flow_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -818,7 +818,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_flex_flow_t 映射为 JS 字符串�
 
 ### 常量类型 lv_grid_align_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_grid_align_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_grid_align_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -856,7 +856,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_grid_align_t 映射为 JS 字符串
 
 ### 常量类型 lv_blend_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_blend_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_blend_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -882,7 +882,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_blend_mode_t 映射为 JS 字符串
 
 ### 常量类型 lv_text_decor_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_text_decor_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_text_decor_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -904,7 +904,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_text_decor_t 映射为 JS 字符串
 
 ### 常量类型 lv_border_side_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_border_side_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_border_side_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -942,7 +942,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_border_side_t 映射为 JS 字符�
 
 ### 常量类型 lv_grad_dir_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_grad_dir_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_grad_dir_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -964,7 +964,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_grad_dir_t 映射为 JS 字符串�
 
 ### 常量类型 lv_style_prop_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_style_prop_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_style_prop_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1426,7 +1426,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_style_prop_t 映射为 JS 字符串
 
 ### 常量类型 lv_style_res_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_style_res_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_style_res_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1444,7 +1444,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_style_res_t 映射为 JS 字符串�
 
 ### 常量类型 lv_event_code_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_event_code_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_event_code_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1694,7 +1694,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_event_code_t 映射为 JS 字符串
 
 ### 常量类型 lv_fs_res_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_fs_res_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_fs_res_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1756,7 +1756,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_fs_res_t 映射为 JS 字符串，�
 
 ### 常量类型 lv_fs_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_fs_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_fs_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1774,7 +1774,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_fs_mode_t 映射为 JS 字符串，
 
 ### 常量类型 lv_fs_whence_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_fs_whence_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_fs_whence_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1796,7 +1796,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_fs_whence_t 映射为 JS 字符串�
 
 ### 常量类型 lv_image_src_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_image_src_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_image_src_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1822,7 +1822,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_image_src_t 映射为 JS 字符串�
 
 ### 常量类型 lv_draw_task_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_draw_task_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_draw_task_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1880,7 +1880,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_draw_task_type_t 映射为 JS 字�
 
 ### 常量类型 lv_draw_task_state_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_draw_task_state_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_draw_task_state_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1906,7 +1906,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_draw_task_state_t 映射为 JS 字�
 
 ### 常量类型 lv_draw_glyph_bitmap_format_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_draw_glyph_bitmap_format_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_draw_glyph_bitmap_format_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1932,7 +1932,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_draw_glyph_bitmap_format_t 映射�
 
 ### 常量类型 lv_display_rotation_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_display_rotation_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_display_rotation_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1958,7 +1958,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_display_rotation_t 映射为 JS 字
 
 ### 常量类型 lv_display_render_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_display_render_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_display_render_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -1980,7 +1980,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_display_render_mode_t 映射为 JS 
 
 ### 常量类型 lv_screen_load_anim_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_screen_load_anim_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_screen_load_anim_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2054,7 +2054,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_screen_load_anim_t 映射为 JS 字
 
 ### 常量类型 lv_obj_tree_walk_res_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_tree_walk_res_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_tree_walk_res_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2076,7 +2076,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_obj_tree_walk_res_t 映射为 JS �
 
 ### 常量类型 lv_scrollbar_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_scrollbar_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_scrollbar_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2102,7 +2102,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_scrollbar_mode_t 映射为 JS 字�
 
 ### 常量类型 lv_scroll_snap_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_scroll_snap_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_scroll_snap_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2128,7 +2128,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_scroll_snap_t 映射为 JS 字符�
 
 ### 常量类型 _lv_style_state_cmp_t
 
-BeShell 将 LVGL C API 中的常量类型 _lv_style_state_cmp_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `_lv_style_state_cmp_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2154,7 +2154,7 @@ BeShell 将 LVGL C API 中的常量类型 _lv_style_state_cmp_t 映射为 JS 字
 
 ### 常量类型 lv_layer_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_layer_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_layer_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2176,7 +2176,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_layer_type_t 映射为 JS 字符串
 
 ### 常量类型 lv_obj_class_editable_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_class_editable_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_class_editable_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2198,7 +2198,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_obj_class_editable_t 映射为 JS �
 
 ### 常量类型 lv_obj_class_group_def_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_class_group_def_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_class_group_def_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2220,7 +2220,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_obj_class_group_def_t 映射为 JS 
 
 ### 常量类型 lv_obj_class_theme_inheritable_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_class_theme_inheritable_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_class_theme_inheritable_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2238,7 +2238,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_obj_class_theme_inheritable_t 映�
 
 ### 常量类型 lv_group_refocus_policy_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_group_refocus_policy_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_group_refocus_policy_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2256,7 +2256,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_group_refocus_policy_t 映射为 JS
 
 ### 常量类型 lv_indev_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_indev_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_indev_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2286,7 +2286,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_indev_type_t 映射为 JS 字符串
 
 ### 常量类型 lv_indev_state_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_indev_state_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_indev_state_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2304,7 +2304,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_indev_state_t 映射为 JS 字符�
 
 ### 常量类型 lv_indev_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_indev_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_indev_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2326,7 +2326,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_indev_mode_t 映射为 JS 字符串
 
 ### 常量类型 lv_cover_res_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_cover_res_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_cover_res_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2348,7 +2348,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_cover_res_t 映射为 JS 字符串�
 
 ### 常量类型 lv_obj_flag_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_flag_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_flag_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2482,7 +2482,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_obj_flag_t 映射为 JS 字符串�
 
 ### 常量类型 lv_font_fmt_txt_cmap_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_font_fmt_txt_cmap_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_font_fmt_txt_cmap_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2508,7 +2508,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_font_fmt_txt_cmap_type_t 映射为 
 
 ### 常量类型 lv_font_fmt_txt_bitmap_format_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_font_fmt_txt_bitmap_format_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_font_fmt_txt_bitmap_format_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2530,7 +2530,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_font_fmt_txt_bitmap_format_t 映射
 
 ### 常量类型 lv_image_align_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_image_align_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_image_align_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2592,7 +2592,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_image_align_t 映射为 JS 字符�
 
 ### 常量类型 lv_animimg_part_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_animimg_part_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_animimg_part_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2606,7 +2606,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_animimg_part_t 映射为 JS 字符�
 
 ### 常量类型 lv_arc_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_arc_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_arc_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2628,7 +2628,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_arc_mode_t 映射为 JS 字符串�
 
 ### 常量类型 lv_label_long_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_label_long_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_label_long_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2658,7 +2658,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_label_long_mode_t 映射为 JS 字�
 
 ### 常量类型 lv_bar_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_bar_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_bar_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2680,7 +2680,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_bar_mode_t 映射为 JS 字符串�
 
 ### 常量类型 lv_buttonmatrix_ctrl_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_buttonmatrix_ctrl_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_buttonmatrix_ctrl_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2742,7 +2742,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_buttonmatrix_ctrl_t 映射为 JS �
 
 ### 常量类型 lv_chart_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_chart_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_chart_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2768,7 +2768,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_chart_type_t 映射为 JS 字符串
 
 ### 常量类型 lv_chart_update_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_chart_update_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_chart_update_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2786,7 +2786,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_chart_update_mode_t 映射为 JS �
 
 ### 常量类型 lv_chart_axis_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_chart_axis_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_chart_axis_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2816,7 +2816,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_chart_axis_t 映射为 JS 字符串
 
 ### 常量类型 lv_imagebutton_state_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_imagebutton_state_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_imagebutton_state_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2854,7 +2854,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_imagebutton_state_t 映射为 JS �
 
 ### 常量类型 lv_keyboard_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_keyboard_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_keyboard_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2896,7 +2896,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_keyboard_mode_t 映射为 JS 字符
 
 ### 常量类型 lv_menu_mode_header_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_menu_mode_header_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_menu_mode_header_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2918,7 +2918,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_menu_mode_header_t 映射为 JS 字
 
 ### 常量类型 lv_menu_mode_root_back_button_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_menu_mode_root_back_button_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_menu_mode_root_back_button_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2936,7 +2936,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_menu_mode_root_back_button_t 映射
 
 ### 常量类型 lv_roller_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_roller_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_roller_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2954,7 +2954,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_roller_mode_t 映射为 JS 字符�
 
 ### 常量类型 lv_scale_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_scale_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_scale_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -2992,7 +2992,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_scale_mode_t 映射为 JS 字符串
 
 ### 常量类型 lv_slider_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_slider_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_slider_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3014,7 +3014,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_slider_mode_t 映射为 JS 字符�
 
 ### 常量类型 lv_span_overflow_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_span_overflow_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_span_overflow_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3036,7 +3036,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_span_overflow_t 映射为 JS 字符
 
 ### 常量类型 lv_span_mode_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_span_mode_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_span_mode_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3062,7 +3062,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_span_mode_t 映射为 JS 字符串�
 
 ### 常量类型 lv_table_cell_ctrl_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_table_cell_ctrl_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_table_cell_ctrl_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3096,7 +3096,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_table_cell_ctrl_t 映射为 JS 字�
 
 ### 常量类型 lv_subject_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_subject_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_subject_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3134,7 +3134,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_subject_type_t 映射为 JS 字符�
 
 ### 常量类型 lv_draw_sw_mask_res_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_draw_sw_mask_res_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_draw_sw_mask_res_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3160,7 +3160,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_draw_sw_mask_res_t 映射为 JS 字
 
 ### 常量类型 lv_draw_sw_mask_type_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_draw_sw_mask_type_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_draw_sw_mask_type_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3190,7 +3190,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_draw_sw_mask_type_t 映射为 JS �
 
 ### 常量类型 lv_state_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_state_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_state_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3256,7 +3256,7 @@ BeShell 将 LVGL C API 中的常量类型 lv_state_t 映射为 JS 字符串，�
 
 ### 常量类型 _lv_part_t
 
-BeShell 将 LVGL C API 中的常量类型 _lv_part_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `_lv_part_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
@@ -3302,7 +3302,7 @@ BeShell 将 LVGL C API 中的常量类型 _lv_part_t 映射为 JS 字符串，�
 
 ### 常量类型 lv_obj_flag_t
 
-BeShell 将 LVGL C API 中的常量类型 lv_obj_flag_t 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
+BeShell 将 LVGL C API 中的常量类型 `lv_obj_flag_t` 映射为 JS 字符串，在访问 JavaScript lvgl api 时，应使用对应的字符串替代 LVGL C 常量。
 
 可用值(js 字符串):
 
