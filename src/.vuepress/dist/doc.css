@@ -1,0 +1,15 @@
+.member-header {
+    width: 6px;
+    display: inline-block;
+    height: 24px;
+    top: 5px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.function.member-header {
+    background-color: #007acc;
+}
+.property.member-header {
+    background-color: #108403;
+}
