@@ -24,12 +24,12 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "copyright © become.cool 2021-2024",
 
       displayFooter: true,
 
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        // editLink: "在 GitHub 上编辑此页",
       },
     },
 
@@ -80,10 +80,10 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "become-cool/beshell",
+      repoId: "R_kgDOMAdaxA",
+      category: "Q&A",
+      categoryId: "DIC_kwDOMAdaxM4CfniL",
     },
 
     components: {

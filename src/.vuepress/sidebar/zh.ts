@@ -8,7 +8,7 @@ export const zhSidebar = sidebar({
       text: "快速开始",
       icon: "laptop-code",
       prefix: "guide/",
-      link: "index.md",
+      link: "guide/",
       children: [
         {
           text: "安装",
@@ -122,36 +122,36 @@ export const zhSidebar = sidebar({
         } ,
       ],
     },
-    {
-      text: "高级",
-      icon: "laptop-code",
-      prefix: "guide/",
-      link: "demo/",
-      children: [
-        {
-          text: "Native 开发",
-          link: "native/overview",
-          children: [
-            {
-              text: "JS Native 模块",
-              link: "interactive",
-            } ,
-            {
-              text: "JS Native 类",
-              link: "interactive",
-            } ,
-            {
-              text: "驱动",
-              link: "interactive",
-            } ,
-          ]
-        } ,
-        {
-          text: "上位机协议",
-          link: "interactive",
-        } ,
+    // {
+    //   text: "高级",
+    //   icon: "laptop-code",
+    //   prefix: "guide/",
+    //   link: "demo/",
+    //   children: [
+    //     {
+    //       text: "Native 开发",
+    //       link: "native/overview",
+    //       children: [
+    //         {
+    //           text: "JS Native 模块",
+    //           link: "interactive",
+    //         } ,
+    //         {
+    //           text: "JS Native 类",
+    //           link: "interactive",
+    //         } ,
+    //         {
+    //           text: "驱动",
+    //           link: "interactive",
+    //         } ,
+    //       ]
+    //     } ,
+    //     {
+    //       text: "上位机协议",
+    //       link: "interactive",
+    //     } ,
 
-      ],
-    },
+    //   ],
+    // },
   ],
 });

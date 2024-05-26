@@ -11,11 +11,11 @@ const config = defineUserConfig({
   ] ,
 
   locales: {
-    "/en/": {
-      lang: "en-US",
-      title: "",
-      description: "BeShell Documents",
-    },
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "",
+    //   description: "BeShell Documents",
+    // },
     "/": {
       lang: "zh-CN",
       title: "",

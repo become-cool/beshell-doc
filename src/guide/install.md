@@ -10,7 +10,6 @@ BeShell 可以在 Arduino 和 ESP IDF 框架中使用, 根据你的喜好和习�
 
 ![Arduino](./screenshot/20240526_163126.png =320x)
 
-
 ## 在 ESP-IDF 中安装 BeShell 组件
 
 详细过程请参阅: [在 ESP-IDF 中安装 BeShell 组件](install_esp-idf.md)
