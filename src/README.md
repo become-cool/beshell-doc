@@ -12,11 +12,11 @@ tagline: 一个在 ESP32 平台上运行 JavaScript 的项目。
 actions:
   - text: 使用指南
     icon: lightbulb
-    link: ./demo/
+    link: ./guide/
     type: primary
 
   - text: 文档
-    link: ./guide/
+    link: ./api/
 
 highlights:
   - header: 设计理念

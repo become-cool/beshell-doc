@@ -8,27 +8,39 @@ export const zhSidebar = sidebar({
       text: "快速开始",
       icon: "laptop-code",
       prefix: "guide/",
-      link: "demo/",
+      link: "index.md",
       children: [
         {
           text: "安装",
-          link: "setup",
+          link: "install.md",
+          children: [
+            {
+              text: "在 Arduino 中安装",
+              link: "install_arduino.md",
+            } ,
+            {
+              text: "在 ESP IDF 中安装",
+              link: "install_esp-idf.md",
+            } ,
+
+          ]
         } ,
-        {
-          text: "交互式运行",
-          link: "interactive",
-        } ,
+        // {
+        //   text: "交互式运行",
+        //   link: "interactive",
+        // } ,
         {
           text: "写第一个 JS 脚本文件",
-          link: "run-js-file",
+          link: "run-js-script.md",
         } ,
-        {
-          text: "用 C++ 写一个 JS Class",
-          link: "run-js-file",
-        } ,
+        // {
+        //   text: "用 C++ 写一个 JS Class",
+        //   link: "run-js-file",
+        // } ,
 
       ],
     },
+
     {
       text: "API 文档",
       icon: "book",
