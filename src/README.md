@@ -41,102 +41,82 @@ highlights:
       - title: JavaScript引擎
         icon: clipboard-check
         details: 完整的ES2020标准
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
       - title: GPIO
         icon: box-archive
         details: GPIO 控制 JS API
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
 
       - title: 片上外设
         icon: bell
         details: I2C/SPI/UART 等
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/alert.html
 
       - title: 驱动
         icon: table-columns
         details: 电机、屏幕、摄像头、传感器、控制器 等
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tabs.html
 
       - title: 文件系统
         icon: code
         details: LittleFS/Fat32/RawFS/SDCard
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html
 
       - title: WiFi
         icon: align-center
         details: STA / AP / Both
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/align.html
 
       - title: 协议
         icon: code
         details: TCP UDP HTTP HTTPS WS MQTT SMTP SNTP 等
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html
 
       - title: GUI
         icon: superscript
         details: 集成 LVGL 图形界面库
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html
         
       - title: 数据库
         icon: superscript
         details: 集成 SQLite3
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html
         
       - title: Web后端
         icon: superscript
         details: 在 EPS32 上实现 NodeJS 的体验
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html
 
       - title: 自由剪裁
         icon: quote-left
         details: 只引用必要的功能以便保持较小编译尺寸
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html
 
       - title: 跨平台
         icon: highlighter
         details: 支持 Linux MacOS Windows 等平台
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/mark.html
 
       - title: WebAssemble
         icon: square-check
         details: 可以在浏览器里运行
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html
 
       - title: 混合编程
         icon: image
         details: C/C++ 和 JavaScript 双向访问
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/image.html
 
       - title: 工具
         icon: puzzle-piece
         details: 提供 Web IDE，支持文件管理，代码编辑，命令行，交互式运行
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
       - title: 多种开发环境
         icon: puzzle-piece
         details: 以多种框架组件形式发布：Arduino、ESP-IDF
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
       - title: 预编译版本
         icon: puzzle-piece
         details: 烧录即用
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
       - title: 静态库
         icon: puzzle-piece
         details: 提供静态库，减少编时间
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
       - title: 镜像发布
         icon: puzzle-piece
         details: 提供 GitHub 和 Gitee 同步镜像
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
       - title: 开源
         icon: puzzle-piece
         details: 源码和文档完全开源
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/component.html
 
 
   - header: 单片机上的 JavaScript
@@ -148,27 +128,22 @@ highlights:
       - title: 完整支持 ES2020 标准
         icon: clipboard-check
         details: 支持 async/await、Proxy、匿名函数 等现代 JS 程序设计
-        link: https://theme-hope.vuejs.press/zh/guide/layout/
 
       - title: All in JavaScript
         icon: circle-half-stroke
         details: 单片机底层、外设、驱动都封装为 JS API
-        link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
 
       - title: 混合编程
         icon: palette
         details: C/C++ 和 JS 双向调用，你可灵活切换语言开发
-        link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
 
       - title: 文件系统
         icon: person-chalkboard
         details: 在单片机上实现文件系统，可模块化组织 JS 代码，支持 import/export AMD规范
-        link: https://theme-hope.vuejs.press/zh/guide/layout/slides
 
       - title: 更多特性
         icon: ellipsis
         details: 交互式运行(REPL)，文件传输，SQLite3数据库等, 这里写不下了
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
 
   - header: 图形界面 和 媒体
     description: BeShell 集成了 LVGL 图形界面库，支持丰富的图像和音频处理功能
@@ -179,32 +154,26 @@ highlights:
       - title: 集成 LVGL 9.x
         icon: comment-dots
         details: 在单片机平台上最流行的图形界面库 (GUI)
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
 
       - title: JS 前端
         icon: lock
         details: JS 比 C语言 (LVGL原生) 更适合前端
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
 
       - title: 类 CSS 样式
         icon: circle-info
         details: 层叠样式表和结构分离，可更换主题
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
 
       - title: 字体文件
         icon: search
         details: 字体以文件形式加载，仅编译打包用到的字型
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
 
       - title: 图像解码
         icon: 
         details: PNG JPG BMP GIF(动画)
-        link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
 
       - title: 音频解码
         icon: image
         details: MP3 WAV PCM 音频解码，MIDI 音符渲染，I2S DAC 播放输出
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
   - header: 网络
     description: BeShell 提供完整的 TCP/IP 协议栈，支持以太网、WIFI 等网络连接
@@ -215,22 +184,18 @@ highlights:
       - title: TCP/IP 协议栈
         icon: blog
         details: 可通过 WiFi 或 以太接入互联网/本地网络
-        link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
 
       - title: 丰富的应用层协议
         icon: home
         details: TCP UDP HTTP HTTPS MQTT SMTP SNTP 等
-        link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
 
       - title: 后端开发
         icon: home
         details: 提供多种协议的网络 server 端接口，在单片机平台上实现 "类NodeJS" 的开发体验
-        link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
 
       - title: 前端长链接
         icon: Web
         details: 支持 WebSocket 长连接，可实现即时通讯
-        link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
 
   - header: 发布与周边
     description: 
