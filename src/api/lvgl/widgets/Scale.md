@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Scale
-
-> 该类是对 LVGL Widget `lv_scale_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/scale.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -147,7 +141,7 @@ headerDepth: 2
 原型:  setRange
  ()
 
-> 该方法是对 LVGL C API `lv_scale_set_range` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_scale_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -163,7 +157,7 @@ headerDepth: 2
 原型:  setLineNeedleValue
  ()
 
-> 该方法是对 LVGL C API `lv_scale_set_line_needle_value` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_scale_set_line_needle_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -179,7 +173,7 @@ headerDepth: 2
 原型:  setImageNeedleValue
  ()
 
-> 该方法是对 LVGL C API `lv_scale_set_image_needle_value` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_scale_set_image_needle_value` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

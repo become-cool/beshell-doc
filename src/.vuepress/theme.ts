@@ -24,7 +24,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "copyright © become.cool 2021-2024",
+      footer: "copyright © become.cool 2020-2024",
 
       displayFooter: true,
 

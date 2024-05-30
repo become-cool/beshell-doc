@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: BtnMatrix
-
-> 该类是对 LVGL Widget `lv_buttonmatrix_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/buttonmatrix.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -77,7 +71,7 @@ headerDepth: 2
 原型:  setButtonCtrl
  ()
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_ctrl` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -93,7 +87,7 @@ headerDepth: 2
 原型:  clearButtonCtrl
  ()
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -109,7 +103,7 @@ headerDepth: 2
 原型:  clearButtonCtrlAll
  ()
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl_all` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_buttonmatrix_clear_button_ctrl_all` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -125,7 +119,7 @@ headerDepth: 2
 原型:  setButtonWidth
  ()
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_width` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_buttonmatrix_set_button_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -141,7 +135,7 @@ headerDepth: 2
 原型:  hasButtonCtrl
  ()
 
-> 该方法是对 LVGL C API `lv_buttonmatrix_has_button_ctrl` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_buttonmatrix_has_button_ctrl` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

@@ -81,6 +81,10 @@ idf_component_register(
 
 using namespace std ;
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void app_main(void)
 {
     be::BeShell beshell ;
@@ -89,6 +93,10 @@ void app_main(void)
 
     beshell.run();
 }
+
+#ifdef __cplusplus
+}
+#endif
 ```
 
 
@@ -156,3 +164,19 @@ undefined
 
 
 > [BeConsole](https://beconsole.become.cool) 是一个 WEB 在线 IDE，提供了终端、文件管理、在线编辑器等功能。
+
+
+## 常见问题
+
+如果运行时崩溃，打印错误：
+
+```
+***ERROR*** A stack overflow in task main has been detected.
+```
+
+这是 main 函数的 stack 空间不足导致的。将工程根目录下 `sdkconfig` 文件里的 `CONFIG_ESP_MAIN_TASK_STACK_SIZE` 配置改大以后，重新编译烧录即可。
+
+```
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=10240
+```
+

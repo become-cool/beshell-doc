@@ -7,24 +7,24 @@ const fs = require("fs")
 const cpp_sources = {
     'fs': {
         title: '文件系统' ,
-        src:path_beshell+"/src/fs/FSModule.cpp" ,
+        src:path_beshell+"/src/fs/FS.cpp" ,
         type: 'nmodule'
     } ,
     'gpio': {
         title: 'GPIO' ,
-        src:path_beshell+"/src/module/GPIOModule.cpp" ,
+        src:path_beshell+"/src/module/GPIO.cpp" ,
         type: 'nmodule'
     } ,
 
     'process': {
         title: 'process' ,
-        src:path_beshell+"/src/module/ProcessModule.cpp" ,
+        src:path_beshell+"/src/module/Process.cpp" ,
         type: 'nmodule'
     } ,
 
     'wifi': {
         title: 'WiFi' ,
-        src:path_beshell+"/src/module/WiFiModule.cpp" ,
+        src:path_beshell+"/src/module/WiFi.cpp" ,
         type: 'nmodule'
     } ,    
 
@@ -63,8 +63,6 @@ function scanLvWidgets(doc, tpl) {
             type: 'nclass'
         }
     }
-
-    console.log(cpp_sources)
 }
 scanLvWidgets()
 

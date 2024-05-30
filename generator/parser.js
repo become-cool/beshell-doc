@@ -17,6 +17,7 @@ async function parseModuleSource(path, moduleConfig) {
 
     try{
         for(let p of path) {
+            
             var json = await javadoc.generate({
                 include: [p],
                 output: "./output.json",
@@ -26,6 +27,12 @@ async function parseModuleSource(path, moduleConfig) {
 
             for(let doc of json.success[0]) {
 
+                if(doc._) {
+                    for(let i=0; i<(doc._).length; i++) {
+                        doc._[i] = doc._[i].replace(/\\@/g, "@")
+                    }
+                }
+                
                 if(doc["@function"] || doc["@method"]) {
                     moduleDoc.funcs.push(doc)
                     continue

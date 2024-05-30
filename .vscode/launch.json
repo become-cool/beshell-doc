@@ -13,7 +13,7 @@
             ],
             "cwd": "${workspaceFolder}\\generator",
             "program": "${workspaceFolder}\\generator\\gen-api-docs.js",
-            "args": ["i2c"],
+            "args": ["wifi"],
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

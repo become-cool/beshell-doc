@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Led
-
-> 该类是对 LVGL Widget `lv_led_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/led.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -49,7 +43,7 @@ headerDepth: 2
 原型:  on
  ()
 
-> 该方法是对 LVGL C API `lv_led_on` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_led_on` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -65,7 +59,7 @@ headerDepth: 2
 原型:  off
  ()
 
-> 该方法是对 LVGL C API `lv_led_off` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_led_off` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -81,7 +75,7 @@ headerDepth: 2
 原型:  toggle
  ()
 
-> 该方法是对 LVGL C API `lv_led_toggle` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_led_toggle` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

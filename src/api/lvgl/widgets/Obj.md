@@ -1347,7 +1347,7 @@ headerDepth: 2
 
 如果样式不存在，抛出异常
 
-[可用的样式参考](style#样式属性)
+[可用的样式参考](../styles.html#样式属性)
 
 #### 参数:
 
@@ -1376,7 +1376,7 @@ headerDepth: 2
 
 如果样式不存在，抛出异常。
 
-[可用的样式参考](style#样式属性)
+[可用的样式参考](../styles.html#样式属性)
 
 ```javascript
 import * as lv from 'lv'

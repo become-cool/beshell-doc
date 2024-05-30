@@ -77,7 +77,7 @@ void app_main() {
 }
 ```
 
-ESP-IDF 项目使用分区表文件 `partitions.csv` 来定义 flash 上的分区。BeShell 针对 4MB/8MB/16MB 的 flash 大小，提供了默认的分区方案。对应的分区表文件存放在 BeShell/filesystem 目录下。可以在 `idf.py menuconfig` 配置界面里填入对应的分区表文件路径。
+ESP-IDF 项目使用分区表文件 `partitions.csv` 来定义 flash 上的分区。BeShell 针对 4MB/8MB/16MB 的 flash 大小，提供了默认的分区方案。对应的分区表文件存放在 BeShell/filesystem 目录下。可以在 `idf.py menuconfig` 配置界面里填入对应的分区表文件路径。例如：`components/BeShell/filesystem/partitions-4MB.csv`
 
 VSCode ESP-IDF 扩展提供了一个 UI 界面在替代 基于命令行的 `idf.py menuconfig` 配置界面。
 
@@ -160,6 +160,10 @@ VSCode ESP-IDF 扩展提供了一个 UI 界面在替代 基于命令行的 `idf.
 
     BeShell beshell ;
 
+    #ifdef __cplusplus
+    extern "C" {
+    #endif
+
     void app_main() {
 
         // 应用文件系统模块
@@ -177,4 +181,8 @@ VSCode ESP-IDF 扩展提供了一个 UI 界面在替代 基于命令行的 `idf.
         // beshell 主循环
         beshell.run() ;
     }
+    
+    #ifdef __cplusplus
+    }
+    #endif
     ```

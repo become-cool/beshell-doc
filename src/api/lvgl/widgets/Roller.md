@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Roller
-
-> 该类是对 LVGL Widget `lv_roller_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/roller.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -63,7 +57,7 @@ headerDepth: 2
 原型:  setOptions
  ()
 
-> 该方法是对 LVGL C API `lv_roller_set_options` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_roller_set_options` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -79,7 +73,7 @@ headerDepth: 2
 原型:  setSelected
  ()
 
-> 该方法是对 LVGL C API `lv_roller_set_selected` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_roller_set_selected` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -95,7 +89,7 @@ headerDepth: 2
 原型:  getSelectedStr
  ()
 
-> 该方法是对 LVGL C API `lv_roller_get_selected_str` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_roller_get_selected_str` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

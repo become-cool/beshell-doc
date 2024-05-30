@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Dropdown
-
-> 该类是对 LVGL Widget `lv_dropdown_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/dropdown.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -133,7 +127,7 @@ headerDepth: 2
 原型:  addOption
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_add_option` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_add_option` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -149,7 +143,7 @@ headerDepth: 2
 原型:  clearOptions
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_clear_options` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_clear_options` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -165,7 +159,7 @@ headerDepth: 2
 原型:  getSelectedStr
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_get_selected_str` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_get_selected_str` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -181,7 +175,7 @@ headerDepth: 2
 原型:  getOptionIndex
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_get_option_index` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_get_option_index` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -197,7 +191,7 @@ headerDepth: 2
 原型:  open
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_open` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_open` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -213,7 +207,7 @@ headerDepth: 2
 原型:  close
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_close` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_close` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -229,7 +223,7 @@ headerDepth: 2
 原型:  isOpen
  ()
 
-> 该方法是对 LVGL C API `lv_dropdown_is_open` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_dropdown_is_open` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

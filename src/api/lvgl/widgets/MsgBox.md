@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: MsgBox
-
-> 该类是对 LVGL Widget `lv_msgbox_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/msgbox.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -77,7 +71,7 @@ headerDepth: 2
 原型:  addTitle
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_add_title` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_add_title` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -93,7 +87,7 @@ headerDepth: 2
 原型:  addText
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_add_text` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_add_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -109,7 +103,7 @@ headerDepth: 2
 原型:  addFooterButton
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_add_footer_button` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_add_footer_button` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -125,7 +119,7 @@ headerDepth: 2
 原型:  addCloseButton
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_add_close_button` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_add_close_button` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -141,7 +135,7 @@ headerDepth: 2
 原型:  close
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_close` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_close` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -157,7 +151,7 @@ headerDepth: 2
 原型:  closeAsync
  ()
 
-> 该方法是对 LVGL C API `lv_msgbox_close_async` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_msgbox_close_async` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Arc
-
-> 该类是对 LVGL Widget `lv_arc_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/arc.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -231,7 +225,7 @@ headerDepth: 2
 原型:  setAngles
  ()
 
-> 该方法是对 LVGL C API `lv_arc_set_angles` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_arc_set_angles` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -247,7 +241,7 @@ headerDepth: 2
 原型:  setBgAngles
  ()
 
-> 该方法是对 LVGL C API `lv_arc_set_bg_angles` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_arc_set_bg_angles` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -263,7 +257,7 @@ headerDepth: 2
 原型:  setRange
  ()
 
-> 该方法是对 LVGL C API `lv_arc_set_range` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_arc_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -279,7 +273,7 @@ headerDepth: 2
 原型:  alignObjToAngle
  ()
 
-> 该方法是对 LVGL C API `lv_arc_align_obj_to_angle` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_arc_align_obj_to_angle` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -295,7 +289,7 @@ headerDepth: 2
 原型:  rotateObjToAngle
  ()
 
-> 该方法是对 LVGL C API `lv_arc_rotate_obj_to_angle` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_arc_rotate_obj_to_angle` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

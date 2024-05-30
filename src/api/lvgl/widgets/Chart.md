@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Chart
-
-> 该类是对 LVGL Widget `lv_chart_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/chart.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -91,7 +85,7 @@ headerDepth: 2
 原型:  setRange
  ()
 
-> 该方法是对 LVGL C API `lv_chart_set_range` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_chart_set_range` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -107,7 +101,7 @@ headerDepth: 2
 原型:  setDivLineCount
  ()
 
-> 该方法是对 LVGL C API `lv_chart_set_div_line_count` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_chart_set_div_line_count` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -123,7 +117,7 @@ headerDepth: 2
 原型:  refresh
  ()
 
-> 该方法是对 LVGL C API `lv_chart_refresh` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_chart_refresh` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

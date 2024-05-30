@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: Span
-
-> 该类是对 LVGL Widget `lv_span_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/spangroup.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -119,7 +113,7 @@ headerDepth: 2
 原型:  newSpan
  ()
 
-> 该方法是对 LVGL C API `lv_spangroup_new_span` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_spangroup_new_span` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -135,7 +129,7 @@ headerDepth: 2
 原型:  getChild
  ()
 
-> 该方法是对 LVGL C API `lv_spangroup_get_child` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_spangroup_get_child` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -151,7 +145,7 @@ headerDepth: 2
 原型:  getExpandWidth
  ()
 
-> 该方法是对 LVGL C API `lv_spangroup_get_expand_width` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_spangroup_get_expand_width` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -167,7 +161,7 @@ headerDepth: 2
 原型:  getExpandHeight
  ()
 
-> 该方法是对 LVGL C API `lv_spangroup_get_expand_height` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_spangroup_get_expand_height` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -183,7 +177,7 @@ headerDepth: 2
 原型:  refrMode
  ()
 
-> 该方法是对 LVGL C API `lv_spangroup_refr_mode` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_spangroup_refr_mode` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 

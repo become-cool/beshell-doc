@@ -3,12 +3,6 @@ headerDepth: 2
 ---
 
 # 类: TextArea
-
-> 该类是对 LVGL Widget `lv_textarea_t` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/widgets/textarea.html)
-
-继承自 [Obj](Obj)
-
-
 ## 类属性
 
 <p style="height: 10px;margin:0px"></p>
@@ -231,7 +225,7 @@ headerDepth: 2
 原型:  addChar
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_add_char` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_add_char` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -247,7 +241,7 @@ headerDepth: 2
 原型:  addText
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_add_text` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_add_text` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -263,7 +257,7 @@ headerDepth: 2
 原型:  deleteChar
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_delete_char` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_delete_char` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -279,7 +273,7 @@ headerDepth: 2
 原型:  deleteCharForward
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_delete_char_forward` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_delete_char_forward` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -295,7 +289,7 @@ headerDepth: 2
 原型:  textIsSelected
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_text_is_selected` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_text_is_selected` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -311,7 +305,7 @@ headerDepth: 2
 原型:  clearSelection
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_clear_selection` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_clear_selection` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -327,7 +321,7 @@ headerDepth: 2
 原型:  cursorRight
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_right` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_cursor_right` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -343,7 +337,7 @@ headerDepth: 2
 原型:  cursorLeft
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_left` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_cursor_left` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -359,7 +353,7 @@ headerDepth: 2
 原型:  cursorDown
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_down` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_cursor_down` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
@@ -375,7 +369,7 @@ headerDepth: 2
 原型:  cursorUp
  ()
 
-> 该方法是对 LVGL C API `lv_textarea_cursor_up` 的封装，具体用法请参考 [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
+> 该方法是对 LVGL C API `lv_textarea_cursor_up` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)
 
 #### 返回值:
 
