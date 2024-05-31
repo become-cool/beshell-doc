@@ -26,7 +26,38 @@ const cpp_sources = {
         title: 'WiFi' ,
         src:path_beshell+"/src/module/WiFi.cpp" ,
         type: 'nmodule'
+    } ,   
+
+    'mg': {
+        title: 'mg' ,
+        src:path_beshell+"/src/mg/Mg.cpp" ,
+        dist: path_output + '/api/mg/index.md' ,
+        type: 'nmodule'
     } ,    
+    'mg.Server': {
+        title: 'Server' ,
+        src:path_beshell+"/src/mg/Server.cpp" ,
+        dist: path_output + "/api/mg/Server.md" ,
+        type: 'nclass'
+    } ,
+    'mg.Client': {
+        title: 'Client' ,
+        src:path_beshell+"/src/mg/Client.cpp" ,
+        dist: path_output + "/api/mg/Client.md" ,
+        type: 'nclass'
+    } ,
+    'mg.Response': {
+        title: 'Response' ,
+        src:path_beshell+"/src/mg/Response.cpp" ,
+        dist: path_output + "/api/mg/Response.md" ,
+        type: 'nclass'
+    } ,
+    'mg.HTTPRequest': {
+        title: 'HTTPRequest' ,
+        src:path_beshell+"/src/mg/HTTPRequest.cpp" ,
+        dist: path_output + "/api/mg/HTTPRequest.md" ,
+        type: 'nclass'
+    } ,
 
     'uart': {
         title: 'UART' ,

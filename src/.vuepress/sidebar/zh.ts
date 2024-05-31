@@ -75,6 +75,33 @@ export const zhSidebar = sidebar({
           link: "wifi",
         } ,
         {
+          text: "网络",
+          link: "mg/",
+          collapsible: true ,
+          children: [
+            {
+              text: "概述",
+              link: "mg/",
+            } ,
+            {
+              text: "Server",
+              link: "mg/Server",
+            } ,
+            {
+              text: "Client",
+              link: "mg/Client",
+            } ,
+            {
+              text: "HTTPRequest",
+              link: "mg/HTTPRequest",
+            } ,
+            {
+              text: "Response",
+              link: "mg/Response",
+            } ,
+          ]
+        } ,
+        {
           text: "串口",
           link: "serial/overview",
           prefix: "serial/",
@@ -114,6 +141,7 @@ export const zhSidebar = sidebar({
             } ,
             {
               text: "组件",
+              link: "widgets/Obj",
               prefix: "widgets/",
               collapsible: true ,
               children: lvglWidgets.default

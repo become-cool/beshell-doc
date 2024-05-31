@@ -3,142 +3,48 @@
     [
       {
         "_": [
-          "> GPIO 模块的例子请参考：[用 JavaScript 控制 GPIO](../guide/gpio.md)\n"
+          "> 该方法是对 LVGL C API `lv_gif_restart` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)\n"
         ],
         "@module": [
-          " gpio"
+          " lv"
         ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
+        "@class": [
+          " Gif"
+        ],
+        "@method": [
+          " restart\n"
+        ],
+        "file": "/mnt/d/project/robot/beshell/beshell-build/libraries-src/BeShell/src/lv/widget/Gif.cpp"
       },
       {
         "_": [
-          "bit1:   未触发的 isr\nbit2:   前次电平值\nbit3:   监听下降沿\nbit4:   监听上升沿"
+          "> 该方法是对 LVGL C API `lv_gif_pause` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)\n"
         ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
+        "@module": [
+          " lv"
+        ],
+        "@class": [
+          " Gif"
+        ],
+        "@method": [
+          " pause\n"
+        ],
+        "file": "/mnt/d/project/robot/beshell/beshell-build/libraries-src/BeShell/src/lv/widget/Gif.cpp"
       },
       {
         "_": [
-          "设置 GPIO 的工作模式\n"
+          "> 该方法是对 LVGL C API `lv_gif_resume` 的封装，具体用法请参考  [LVGL文档](https://docs.lvgl.io/9.0/API/index.html)\n"
         ],
-        "@function": [
-          " setMode"
+        "@module": [
+          " lv"
         ],
-        "@param": [
-          " pin:number 引脚序号",
-          " mode:string 模式, 可用值: \"input\"|\"output\"|\"output-od\"|\"input-output\"|\"input-output-od\"\n"
+        "@class": [
+          " Gif"
         ],
-        "@return": [
-          " bool"
+        "@method": [
+          " resume\n"
         ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "设置 gpio pull 模式\n \n参数 `pullMode` 的可选值为:\n* up 上拉\n* down 下拉\n* updown 同时上下拉\n* floating 悬空\n"
-        ],
-        "@function": [
-          " pull"
-        ],
-        "@param": [
-          " pin:number mcu可用的gpio编号",
-          " mode:string"
-        ],
-        "@return": [
-          " undefined"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "gpio 电平输出\n"
-        ],
-        "@function": [
-          " write"
-        ],
-        "@param": [
-          " pin:number mcu可用的gpio编号",
-          " value:number 输出电平 0|1 "
-        ],
-        "@return": [
-          " undefined"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "gpio 电平输入\n"
-        ],
-        "@function": [
-          " read"
-        ],
-        "@param": [
-          " pin:number mcu可用的gpio编号"
-        ],
-        "@return": [
-          " 0|1"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "设置 adc 的位宽\n"
-        ],
-        "@function": [
-          " adcSetBits"
-        ],
-        "@param": [
-          " adc:number adc (目前版本只能为 1)",
-          " bits:number 位宽 (9-12)"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "设置 gpio 使用哪个 adc 通道\n"
-        ],
-        "@function": [
-          " adcSetChannelAtten\nparam pin:number mcu可用的gpio编号\nparam atten:number adc通道 (1|2)"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "监听 gpio 外部电平变化\n"
-        ],
-        "@function": [
-          " watch"
-        ],
-        "@param": [
-          " pin:number mcu可用的gpio编号",
-          " mode:string 监听模式， 可选值为: \"rising\"|\"falling\"|\"both\"",
-          " callback:function 回调函数，callback 的原型为 `function(pin, value)`"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
-      },
-      {
-        "_": [
-          "GPIO 闪烁，执行该函数后，指定的引脚会持续高低电平切换。\n"
-        ],
-        "@function": [
-          " blink"
-        ],
-        "@param": [
-          " pin:number 引脚序号",
-          " time:number 间隔时间，单位毫秒，闪烁的半周期\n"
-        ],
-        "@return": [
-          " number 定时器id，可使用 `clearTimeout()` 停止闪烁。"
-        ],
-        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
+        "file": "/mnt/d/project/robot/beshell/beshell-build/libraries-src/BeShell/src/lv/widget/Gif.cpp"
       }
     ]
   ],

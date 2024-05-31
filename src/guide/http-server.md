@@ -1,6 +1,6 @@
 # 在 ESP32 上用 JavaScript 开发 WEB 后端
 
-BeShell 集成了 [Mongoose 库](https://mongoose.ws)，用来处理应用层的协议，包括 HTTP(S)、WebSocket、MQTT、SNTP、SMTP 等。
+BeShell 集成了 [Mongoose 库](https://mongoose.ws)，用来处理网络应用层的协议，包括 HTTP(S)、WebSocket、MQTT、SNTP、SMTP 等。
 
 BeShell 在 ESP32 平台上实现了类似 `Node.js` 这样的 WEB 后端开发框架。
 
