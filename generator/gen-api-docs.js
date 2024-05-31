@@ -64,12 +64,17 @@ function scanLvWidgets(doc, tpl) {
         }
     }
 }
-scanLvWidgets()
+try{
+    scanLvWidgets()
+    
+    cpp_sources["Obj"].src = [
+        cpp_sources["Obj"].src ,
+        path_beshell+"/src/lv/widget/Obj.style.cpp" ,
+    ]
+}catch(e){
+    console.log(e)
+}
 
-cpp_sources["Obj"].src = [
-    cpp_sources["Obj"].src ,
-    path_beshell+"/src/lv/widget/Obj.style.cpp" ,
-]
 
 
 

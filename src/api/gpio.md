@@ -22,6 +22,9 @@ import GPIO
 
 :::
 
+> GPIO 模块的例子请参考：[用 JavaScript 控制 GPIO](../guide/gpio.md)
+
+
 ## 模块函数
 
 <p style="height: 10px;margin:0px"></p>
@@ -233,6 +236,37 @@ param atten:number adc通道 (1|2) ()
 <span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>bool
 
 
+
+<p style="height: 10px;margin:0px"></p>
+
+<p style="height: 10px;margin:0px"></p>
+
+### <span class='member-header function'></span> 函数  blink
+
+原型:  blink (pin:number, time:number)
+
+GPIO 闪烁，执行该函数后，指定的引脚会持续高低电平切换。
+
+#### 参数:
+
+* <span style='color: #007acc'>pin</span>
+
+    <span style='display: inline-block; width:100px'>**类型**</span>number
+
+    <span style='display: inline-block; width:100px'>**参数说明**</span>引脚序号
+
+* <span style='color: #007acc'>time</span>
+
+    <span style='display: inline-block; width:100px'>**类型**</span>number
+
+    <span style='display: inline-block; width:100px'>**参数说明**</span>间隔时间，单位毫秒，闪烁的半周期
+
+
+#### 返回值:
+
+<span style='display: inline-block; width:100px;margin-left:20px'>**类型**</span>number
+
+定时器id，可使用 `clearTimeout()` 停止闪烁。
 
 <p style="height: 10px;margin:0px"></p>
 

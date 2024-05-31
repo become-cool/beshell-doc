@@ -22,37 +22,9 @@ import WiFi
 
 :::
 
-> 本页只介绍模块的 JavaScript API，如何在 ESP32 设备上运行 JavaScript 文件，请参考：[https://beshell.become.cool/guide/run-js-script.html](https://beshell.become.cool/guide/run-js-script.html)
+> WiFi 模块的例子请参考：[用 JavaScript 连接 WiFi](../guide/wifi.md)
 
 系统在初次 `import` WiFi 模块时，会自动初始化所有相关的硬件资源。
-
-
-## 做为 WiFi 热点
-
-```javascript
-import * as wifi from 'wifi'
-
-// 启动热点
-wifi.startAP('BeShell', '12345678')
-
-// 停止热点
-wifi.stopAP()
-
-```
-
-
-## 做为 WiFi 客户端
-
-```javascript
-import * as wifi from 'wifi'
-
-// 连接到热点
-wifi.connect('BeShell', '12345678')
-
-// 断开连接
-wifi.disconnect('BeShell', '12345678')
-
-```
 
 
 ## 模块函数

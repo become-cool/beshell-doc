@@ -33,6 +33,18 @@ export const zhSidebar = sidebar({
           text: "写第一个 JS 脚本文件",
           link: "run-js-script.md",
         } ,
+        {
+          text: "用 JS 处理 GPIO",
+          link: "gpio.md",
+        } ,
+        {
+          text: "用 JS 连接 WiFi",
+          link: "wifi.md",
+        } ,
+        {
+          text: "在 ESP32 上用 JS 开发 WEB 后端",
+          link: "http-server.md",
+        } ,
         // {
         //   text: "用 C++ 写一个 JS Class",
         //   link: "run-js-file",

@@ -1,4 +1,4 @@
-# 运行   JavaScript 脚本文件
+# 运行 JavaScript 脚本文件
 
 BeShell 应用的主要逻辑应该写在 JavaScript 文件中。因此需要 BeShell 完善了 ESP32 的文件系统支持 :page_facing_up: 。
 
@@ -13,7 +13,7 @@ BeShell 应用的主要逻辑应该写在 JavaScript 文件中。因此需要 Be
 
 下面分别给出 Arduino 和 ESP-IDF 的简单例子。
 
-## Arduino
+## Arduino 启动工程代码
 
 ```cpp
 #include <BeShell.hpp>

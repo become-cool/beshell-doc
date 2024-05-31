@@ -3,586 +3,142 @@
     [
       {
         "_": [
-          "> 本页只介绍模块的 JavaScript API，如何在 ESP32 设备上运行 JavaScript 文件，请参考：[https://beshell.become.cool/guide/run-js-script.html](https://beshell.become.cool/guide/run-js-script.html)\n\n系统在初次 `import` WiFi 模块时，会自动初始化所有相关的硬件资源。\n\n\n## 做为 WiFi 热点\n\n```javascript\nimport * as wifi from 'wifi'\n\n// 启动热点\nwifi.startAP('BeShell', '12345678')\n\n// 停止热点\nwifi.stopAP()\n\n```\n\n\n## 做为 WiFi 客户端\n\n```javascript\nimport * as wifi from 'wifi'\n\n// 连接到热点\nwifi.connect('BeShell', '12345678')\n\n// 断开连接\nwifi.disconnect('BeShell', '12345678')\n\n```\n"
+          "> GPIO 模块的例子请参考：[用 JavaScript 控制 GPIO](../guide/gpio.md)\n"
         ],
         "@module": [
-          " wifi"
+          " gpio"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "启动 WiFi 硬件，所有 wifi 模块里的 api 都需要在 `start()` 之后才能调用。\n\n`startAP` 和 `connect` 会自动调用 `start()` ，因此一般情况下，可以直接使用 startAP 或 connect 。\n\n返回 0 表示成功, 返回非 0 表示错误代码\n"
+          "bit1:   未触发的 isr\nbit2:   前次电平值\nbit3:   监听下降沿\nbit4:   监听上升沿"
         ],
-        "@function": [
-          " start"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "停止 WiFi 硬件。\n\n返回 0 表示成功, 返回非 0 表示错误代码\n"
-        ],
-        "@function": [
-          " stop"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回是否已经 start()\n"
-        ],
-        "@function": [
-          " isReady"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "启动 WiFi 热点\n\n> 该函数会自动调用 `start()` 启动 WiFi 模块。\n\n异步返回 Promise\\<bool\\> 表示成功或者失败\n"
-        ],
-        "@function": [
-          " startAP"
-        ],
-        "@param": [
-          " ssid:string WiFi 热点名称",
-          " password:string WiFi 热点密码\n"
-        ],
-        "@return": [
-          " Promise\\<bool\\>"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "停止 WiFi 热点\n\n异步返回 Promise\\<bool\\> 表示成功或者失败\n"
-        ],
-        "@function": [
-          " stopAP"
-        ],
-        "@return": [
-          " Promise\\<bool\\>"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "做为 WiFi STA 连接到热点\n\n> 该函数会自动调用 `start()` 启动 WiFi 模块。\n\n异步返回 Promise\\<bool\\> 表示成功或者失败\n"
-        ],
-        "@function": [
-          " connect"
-        ],
-        "@param": [
-          " ssid:string WiFi 热点名称",
-          " password:string WiFi 热点密码",
-          " retry:number=3 连接失败重试次数",
-          " retryDuration:number=2000 连接重试间隔时间，单位 ms\n"
-        ],
-        "@return": [
-          " Promise\\<bool\\>"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "断开 WiFi STA 的连接\n\n异步返回 Promise\\<bool\\> 表示成功或者失败\n\n未连接状态下，直接返回 Promise\\<true\\>\n"
-        ],
-        "@function": [
-          " disconnect"
-        ],
-        "@return": [
-          " Promise\\<bool\\>"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回是否正在连接中\n"
-        ],
-        "@function": [
-          " isConnecting"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 AP/STA 详细状态\n\n返回对象的格式：\n\n::: code-tabs\n\n\\@tab apsta\n\n```javascript\n{\n    \"ap\": {\n        \"ssid\": string,\n        \"password\": string,\n        \"started\": bool,\n        \"ip\":string,\n        \"netmask\":string,\n        \"gw\":string\n     } ,\n    \"sta\": {\n        \"ssid\": string,\n        \"password\": string,\n        \"started\": bool,\n        \"connected\": bool,\n        \"authmode\":number,\n        \"ip\":string,\n        \"netmask\":string,\n        \"gw\":string\n     } ,\n}\n```\n\n\\@tab ap\n\n```javascript\n\"ap\": {\n    \"ssid\": string,\n    \"password\": string,\n    \"started\": bool,\n    \"ip\":string,\n    \"netmask\":string,\n    \"gw\":string\n} ,\n```\n\n\\@tab sta\n\n```javascript\n\"sta\": {\n    \"ssid\": string,\n    \"password\": string,\n    \"started\": bool,\n    \"connected\": bool,\n    \"authmode\":number,\n    \"ip\":string,\n    \"netmask\":string,\n    \"gw\":string\n} ,\n```\n:::\n"
-        ],
-        "@function": [
-          " status"
-        ],
-        "@param": [
-          " type:string=\"apsta\" 可选值：\"apsta\"、\"ap\"、\"sta\""
-        ],
-        "@return": [
-          " object"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "等待从 DHCP 获取 IP 地址\n\n异步返回 Promise\\<object|false\\> ，如果失败范围 false，成功则返回包括 ip 的 sta status 对象。\n\n参考 `status()` 函数的返回值。\n"
-        ],
-        "@function": [
-          " waitIP"
-        ],
-        "@return": [
-          " Promise\\<object|false\\>"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "设置 wifi 的节能模式 (PowerSafe)\n\n参数 mode :\n\n* 0 关闭节能模式\n* 1 最小\n* 2 最大\n\n关闭节能模式，可以避免 WiFi 休眠，提供通讯的效率和稳定性，但会增加功耗\n\n返回 0 表示 api 调用成功, 返回非 0 表示错误代码\n"
-        ],
-        "@function": [
-          " setPS"
-        ],
-        "@param": [
-          " mode:0|1|2"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "设置 wifi 的工作模式，`startAP` 和 `connect` 会自动设置工作模式，因此通常不需要直接使用这个 api\n\n参数 mode :\n\n* 0 未启动\n* 1 STA\n* 2 AP\n* 3 STA + AP\n\n返回 0 表示 api 调用成功, 返回非 0 表示错误代码\n"
+          "设置 GPIO 的工作模式\n"
         ],
         "@function": [
           " setMode"
         ],
         "@param": [
-          " mode:0|1|2|3"
+          " pin:number 引脚序号",
+          " mode:string 模式, 可用值: \"input\"|\"output\"|\"output-od\"|\"input-output\"|\"input-output-od\"\n"
         ],
         "@return": [
-          " number"
+          " bool"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "返回设置 wifi 的工作模式\n\n* 0 未启动\n* 1 STA\n* 2 AP\n* 3 STA + AP\n"
+          "设置 gpio pull 模式\n \n参数 `pullMode` 的可选值为:\n* up 上拉\n* down 下拉\n* updown 同时上下拉\n* floating 悬空\n"
         ],
         "@function": [
-          " getMode"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "设置 wifi AP 模式的参数, `startAP` 会自动配置 AP 参数，需要对设备更详细的设置时，可以使用这个 api\n\n参数 mode :\n```javascript\n{\n    ssid: string ,\n    password?: string ,\n    \"threshold.authmode\"?: 0-8 ,\n    channel?: 1-13 ,\n    max_connection?: number = 4 , // 最大客户连接数\n    ssid_hidden?:bool = false ,    // 热点不会被扫描到\n    beacon_interval?: number ,\n    pairwise_cipher?: number ,\n    ftm_responder?: bool ,        // Enable FTM Responder mode\n}\n```\n\n如果 `password` 为空, 则 `threshold.authmode` 自动设置为 `WIFI_AUTH_OPEN`\n\n返回 0 表示 api 调用成功, 返回非 0 表示错误代码\n"
-        ],
-        "@function": [
-          " setAPConfig"
+          " pull"
         ],
         "@param": [
-          " config:object"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "设置 wifi STA 模式的连接参数, `connect` 会自动配置连接参数，需要使用更详细的连接参数时使用此 API\n\n参数 mode :\n```javascript\n{\n    ssid: string ,\n    password?: string ,\n    \"threshold.authmode\"?: 0-8 ,\n    scan_method?: 0|1 ,\n    channel?: 1-13 ,\n    listen_interval?:number = 3 ,\n    sort_method?: 0|1 = 0 ,       // sort the connect AP in the list by rssi or security mode\n}\n```\n\n如果 `password` 为空, 则 `threshold.authmode` 自动设置为 `WIFI_AUTH_OPEN`\n\n返回 0 表示 api 调用成功, 返回非 0 表示错误代码\n"
-        ],
-        "@function": [
-          " setStaConfig"
-        ],
-        "@param": [
-          " config:object"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 wifi 的工作参数\n\n返回的对象可参考 `setStaConfig()` 和 `setAPConfig()` 的 `mode` 参数\n"
-        ],
-        "@function": [
-          " getConfig"
-        ],
-        "@param": [
-          " mode:1|2  1代表 sta , 2代表 ap"
-        ],
-        "@return": [
-          " object"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "WiFi STA 断开连接\n\n返回 0 表示成功; 非 0 代表对应的错误\n"
-        ],
-        "@return": [
-          " number"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 AP/STA 的 IP \n\nfunction 返回一个对象, 包含 ip, netmask, gw 信息\n```javascript\n{\n    ip:string,\n    netmask:string,\n    gw:string\n}\n```\n"
-        ],
-        "@function": [
-          " getIpInfo"
-        ],
-        "@param": [
-          " type:number 1代表 sta, 2代表 ap"
-        ],
-        "@return": [
-          " object"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回设置 wifi 的在局域网中可被显示的主机名\n"
-        ],
-        "@function": [
-          " setHostname"
-        ],
-        "@param": [
-          " nane:string"
+          " pin:number mcu可用的gpio编号",
+          " mode:string"
         ],
         "@return": [
           " undefined"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "返回所有连接到本机AP的客户机\n\n返回对象数组, 每个对象包含 mac 和 rssi 信息\n```javascript\n[\n    {mac: \"xx:xx\", rssi: -30},\n]\n```\n\n`rssi` 值范围 -100 ~ 0, 单位为 dBm，表示信号强度，越大(绝对值越小)表示信号越强。\n"
+          "gpio 电平输出\n"
         ],
         "@function": [
-          " allSta"
+          " write"
         ],
-        "@return": [
-          " {mac:string,rssi:string}[]"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "注册一个事件函数, 当 wifi 状态变化时, 该函数会被调用\n\n回调函数的参数：\n\n```\ncallback(eventType:number, eventId:number, reason:number)\n```\n\nreason 表示 disconnect 事件的断开原因\n"
+        "@param": [
+          " pin:number mcu可用的gpio编号",
+          " value:number 输出电平 0|1 "
         ],
         "@return": [
           " undefined"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "扫描周围的 WiFi 热点，必须在 STA 模式下运行\n\n异步返回 Promise\\<object[]\\> \n\n返回对象数组的格式：\n\n```javascript\n[\n    {\n        bssid:string ,\n        ssid:string ,\n        channel:number ,\n        rssi:number ,\n        authmode:number ,\n    } ,\n    ...\n]\n```\n"
+          "gpio 电平输入\n"
         ],
         "@function": [
-          " scan"
+          " read"
+        ],
+        "@param": [
+          " pin:number mcu可用的gpio编号"
         ],
         "@return": [
-          " Promise\\<object[]\\>"
+          " 0|1"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "开始扫描附近的AP\n\n> wifi STA 模式必须启动\n"
+          "设置 adc 的位宽\n"
+        ],
+        "@function": [
+          " adcSetBits"
+        ],
+        "@param": [
+          " adc:number adc (目前版本只能为 1)",
+          " bits:number 位宽 (9-12)"
         ],
         "@return": [
           " bool"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "停止AP扫描\n"
+          "设置 gpio 使用哪个 adc 通道\n"
         ],
         "@function": [
-          " scanStop"
+          " adcSetChannelAtten\nparam pin:number mcu可用的gpio编号\nparam atten:number adc通道 (1|2)"
         ],
         "@return": [
           " bool"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "返回 AP 扫描是否正在进行\n"
+          "监听 gpio 外部电平变化\n"
         ],
         "@function": [
-          " isScanning"
+          " watch"
+        ],
+        "@param": [
+          " pin:number mcu可用的gpio编号",
+          " mode:string 监听模式， 可选值为: \"rising\"|\"falling\"|\"both\"",
+          " callback:function 回调函数，callback 的原型为 `function(pin, value)`"
         ],
         "@return": [
           " bool"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       },
       {
         "_": [
-          "取回 AP 扫描的结果\n\n返回的数组格式:\n```javascript\n[\n    {\n        bssid:string ,\n         ssid:string ,\n         channel:number ,\n         rssi:number ,\n         authmode:number ,\n     }\n]\n```\n"
+          "GPIO 闪烁，执行该函数后，指定的引脚会持续高低电平切换。\n"
         ],
         "@function": [
-          " scanRecords"
+          " blink"
+        ],
+        "@param": [
+          " pin:number 引脚序号",
+          " time:number 间隔时间，单位毫秒，闪烁的半周期\n"
         ],
         "@return": [
-          " object[]"
+          " number 定时器id，可使用 `clearTimeout()` 停止闪烁。"
         ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 WiFi STA 模式是否启动\n"
-        ],
-        "@function": [
-          " staStarted"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 WiFi STA 是否已经连接\n"
-        ],
-        "@function": [
-          " staConnected"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
-      },
-      {
-        "_": [
-          "返回 WiFi AP 模式是否启用\n"
-        ],
-        "@function": [
-          " apStarted"
-        ],
-        "@return": [
-          " bool"
-        ],
-        "file": "/mnt/d/project/robot/beshell/beshell-arduino-lib-build/libraries-src/BeShell/src/module/WiFi.cpp"
+        "file": "/mnt/d/project/become/beshell/beshell-arduino-build/libraries-src/BeShell/src/module/GPIO.cpp"
       }
     ]
   ],
