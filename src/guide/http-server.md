@@ -74,7 +74,7 @@ import * as mg from "mg"
             }
             // 静态页面
             else {
-                res.serveDir(res, "/public")
+                res.serveDir(req, "/public")
             }
         }
     })
