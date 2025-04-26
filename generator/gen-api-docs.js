@@ -59,6 +59,12 @@ const cpp_sources = {
         type: 'nclass'
     } ,
 
+    'serial': {
+        title: 'serial' ,
+        src:path_beshell+"/src/module/serial/Serial.cpp" ,
+        dist: path_output + "/api/serial/index.md" ,
+        type: 'nmodule'
+    } ,
     'uart': {
         title: 'UART' ,
         src:path_beshell+"/src/module/serial/UART.cpp" ,

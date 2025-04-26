@@ -103,25 +103,24 @@ export const zhSidebar = sidebar({
         } ,
         {
           text: "串口",
-          link: "serial/overview",
-          prefix: "serial/",
+          link: "serial/",
           collapsible: true ,
           children: [
             {
               text: "概述",
-              link: "overview",
+              link: "serial/",
             } ,
             {
               text: "UART",
-              link: "UART",
+              link: "serial/UART",
             } ,
             {
               text: "I2C",
-              link: "I2C",
+              link: "serial/I2C",
             } ,
             {
               text: "SPI",
-              link: "SPI",
+              link: "serial/SPI",
             } ,
           ]
         } ,
